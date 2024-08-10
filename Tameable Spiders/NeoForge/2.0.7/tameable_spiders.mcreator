@@ -1,0 +1,2184 @@
+{
+  "mod_elements": [
+    {
+      "name": "AgeableSpider",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ageable_spider",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/AgeableSpider.java"
+        ]
+      },
+      "path": "~/Entity/Abstract"
+    },
+    {
+      "name": "BreedableSpider",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "breedable_spider",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/BreedableSpider.java"
+        ]
+      },
+      "path": "~/Entity/Abstract"
+    },
+    {
+      "name": "TamableSpider",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tamable_spider",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/TamableSpider.java"
+        ]
+      },
+      "path": "~/Entity/Abstract"
+    },
+    {
+      "name": "TamableSpiderRenderer",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tamable_spider_renderer",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/TamableSpiderRenderer.java"
+        ]
+      },
+      "path": "~/Entity/Renderer"
+    },
+    {
+      "name": "SittingGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sitting_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/SittingGoal.java"
+        ]
+      },
+      "path": "~/Entity/Goals"
+    },
+    {
+      "name": "FollowGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "follow_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/FollowGoal.java"
+        ]
+      },
+      "path": "~/Entity/Goals"
+    },
+    {
+      "name": "BreedGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "breed_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/BreedGoal.java"
+        ]
+      },
+      "path": "~/Entity/Goals"
+    },
+    {
+      "name": "OwnerHurtByGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "owner_hurt_by_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/OwnerHurtByGoal.java"
+        ]
+      },
+      "path": "~/Entity/Goals"
+    },
+    {
+      "name": "OwnerHurtGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "owner_hurt_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/OwnerHurtGoal.java"
+        ]
+      },
+      "path": "~/Entity/Goals"
+    },
+    {
+      "name": "SpiderAttackGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spider_attack_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/SpiderAttackGoal.java"
+        ]
+      },
+      "path": "~/Entity/Goals"
+    },
+    {
+      "name": "SpiderTargetGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spider_target_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/SpiderTargetGoal.java"
+        ]
+      },
+      "path": "~/Entity/Goals"
+    },
+    {
+      "name": "SpiderVariant",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spider_variant",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/SpiderVariant.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "SpiderBackLayer",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spider_back_layer",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/SpiderBackLayer.java"
+        ]
+      },
+      "path": "~/Entity/Renderer"
+    },
+    {
+      "name": "SittingAnimation",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sitting_animation",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/SittingAnimation.java"
+        ]
+      },
+      "path": "~/Entity/Renderer"
+    },
+    {
+      "name": "SpiderBabyHead",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spider_baby_head",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/SpiderBabyHead.java"
+        ]
+      },
+      "path": "~/Entity/Renderer"
+    },
+    {
+      "name": "SpiderInventory",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spider_inventory",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/network/SpiderInventoryButtonMessage.java",
+          "src/main/java/tameable/spiders/world/inventory/SpiderInventoryMenu.java",
+          "src/main/java/tameable/spiders/client/gui/SpiderInventoryScreen.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "SpiderRules",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spider_rules",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/SpiderRules.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "ModdedSpider",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "modded_spider",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/ModdedSpider.java"
+        ]
+      },
+      "path": "~/Entity/Abstract"
+    },
+    {
+      "name": "Vemon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vemon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_spiders/models/item/vemon.json",
+          "src/main/java/tameable/spiders/item/VemonItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "Silk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_spiders/models/item/silk.json",
+          "src/main/java/tameable/spiders/item/SilkItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "RideableSpider",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rideable_spider",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/RideableSpider.java"
+        ]
+      },
+      "path": "~/Entity/Abstract"
+    },
+    {
+      "name": "RootIcon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "root_icon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_spiders/models/item/root_icon.json",
+          "src/main/java/tameable/spiders/item/RootIconItem.java"
+        ]
+      },
+      "path": "~/Item/Advancement Icon"
+    },
+    {
+      "name": "Root",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "root",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_spiders/advancements/root.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AllyIcon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ally_icon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_spiders/models/item/ally_icon.json",
+          "src/main/java/tameable/spiders/item/AllyIconItem.java"
+        ]
+      },
+      "path": "~/Item/Advancement Icon"
+    },
+    {
+      "name": "ArachnidAlly",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arachnid_ally",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_spiders/advancements/arachnid_ally.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SilkSpinner",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silk_spinner",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_spiders/advancements/silk_spinner.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "VemonMilker",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vemon_milker",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_spiders/advancements/vemon_milker.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AcheIcon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ache_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/item/AcheIconItem.java",
+          "src/main/resources/assets/tameable_spiders/models/item/ache_icon.json"
+        ]
+      },
+      "path": "~/Item/Advancement Icon"
+    },
+    {
+      "name": "StomachAche",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stomach_ache",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_spiders/advancements/stomach_ache.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "PestIcon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pest_icon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_spiders/models/item/pest_icon.json",
+          "src/main/java/tameable/spiders/item/PestIconItem.java"
+        ]
+      },
+      "path": "~/Item/Advancement Icon"
+    },
+    {
+      "name": "ExterminatorIcon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exterminator_icon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_spiders/models/item/exterminator_icon.json",
+          "src/main/java/tameable/spiders/item/ExterminatorIconItem.java"
+        ]
+      },
+      "path": "~/Item/Advancement Icon"
+    },
+    {
+      "name": "PestControl",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pest_control",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_spiders/advancements/pest_control.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Exterminator",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exterminator",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_spiders/advancements/exterminator.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "KilledArachnid",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "killed_arachnid",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/tameable/spiders/procedures/KilledArachnidProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "String1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "string_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_spiders/recipes/string_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "String2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "string_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_spiders/recipes/string_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "String3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "string_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_spiders/recipes/string_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "String4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "string_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_spiders/recipes/string_4.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Poison",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/recipes/brewing/PoisonBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PoisonLong",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_long",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/recipes/brewing/PoisonLongBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PoisonStrong",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_strong",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/recipes/brewing/PoisonStrongBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Bed",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bed",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/item/BedItem.java",
+          "src/main/resources/assets/tameable_spiders/models/item/bed.json"
+        ]
+      },
+      "path": "~/Blocks/Spider Bed"
+    },
+    {
+      "name": "BedTop",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bed_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_spiders/recipes/bed_top.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BedBottom",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bed_bottom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_spiders/recipes/bed_bottom.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ContainerBlock",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "container_block",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/ContainerBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BedNorth",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bed_north",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_spiders/models/block/bed_north.json",
+          "src/main/java/tameable/spiders/block/entity/BedNorthBlockEntity.java",
+          "src/main/resources/data/tameable_spiders/loot_tables/blocks/bed_north.json",
+          "src/main/resources/assets/tameable_spiders/models/item/bed_north.json",
+          "src/main/java/tameable/spiders/block/BedNorthBlock.java",
+          "src/main/resources/assets/tameable_spiders/blockstates/bed_north.json"
+        ]
+      },
+      "path": "~/Blocks/Spider Bed"
+    },
+    {
+      "name": "BedSouth",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bed_south",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tameable_spiders/models/item/bed_south.json",
+          "src/main/java/tameable/spiders/block/BedSouthBlock.java",
+          "src/main/resources/assets/tameable_spiders/blockstates/bed_south.json",
+          "src/main/resources/data/tameable_spiders/loot_tables/blocks/bed_south.json",
+          "src/main/resources/assets/tameable_spiders/models/block/bed_south.json"
+        ]
+      },
+      "path": "~/Blocks/Spider Bed"
+    },
+    {
+      "name": "PlayerTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/procedures/PlayerTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "EntityTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "entity_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/procedures/EntityTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "Web",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "web",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_spiders/recipes/web.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Cobweb1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobweb_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_spiders/recipes/cobweb_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Cobweb2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobweb_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_spiders/recipes/cobweb_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Cobweb3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobweb_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_spiders/recipes/cobweb_3.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Cobweb4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobweb_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tameable_spiders/recipes/cobweb_4.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ClaimBedGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "claim_bed_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/ClaimBedGoal.java"
+        ]
+      },
+      "path": "~/Entity/Goals"
+    },
+    {
+      "name": "SilkWeb",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "silk_web",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/block/entity/SilkWebBlockEntity.java",
+          "src/main/resources/assets/tameable_spiders/models/item/silk_web.json",
+          "src/main/java/tameable/spiders/block/SilkWebBlock.java",
+          "src/main/resources/assets/tameable_spiders/blockstates/silk_web.json",
+          "src/main/resources/assets/tameable_spiders/models/block/silk_web.json",
+          "src/main/resources/data/tameable_spiders/loot_tables/blocks/silk_web.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "UtilitySlot",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "utility_slot",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/UtilitySlot.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Utility",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "utility",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/Utility.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Utilities",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "utilities",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/Utilities.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Spawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/procedures/SpawnProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "Spider",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spider",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/entity/SpiderEntity.java",
+          "src/main/java/tameable/spiders/client/renderer/SpiderRenderer.java"
+        ]
+      },
+      "path": "~/Entity"
+    },
+    {
+      "name": "CaveSpider",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cave_spider",
+      "metadata": {
+        "files": [
+          "src/main/java/tameable/spiders/entity/CaveSpiderEntity.java",
+          "src/main/java/tameable/spiders/client/renderer/CaveSpiderRenderer.java"
+        ]
+      },
+      "path": "~/Entity"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "boundEntity",
+      "type": "string",
+      "scope": "player_lifetime",
+      "value": ""
+    },
+    {
+      "name": "spidersKilled",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "localGuideProgress",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "assignBed",
+      "type": "blockstate",
+      "scope": "player_lifetime",
+      "value": "Blocks.AIR.defaultBlockState()"
+    },
+    {
+      "name": "assigning",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "assignX",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "assignY",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "assignZ",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:fall_damage_resetting": [
+      "CUSTOM:SilkWeb"
+    ],
+    "ENTITIES:minecraft:dismounts_underwater": [
+      "CUSTOM:Spider",
+      "CUSTOM:CaveSpider"
+    ],
+    "ENTITIES:minecraft:arthropod": [
+      "CUSTOM:Spider",
+      "CUSTOM:CaveSpider"
+    ],
+    "ENTITIES:minecraft:sensitive_to_bane_of_arthropods": [
+      "CUSTOM:Spider",
+      "CUSTOM:CaveSpider"
+    ],
+    "ENTITIES:tameable_spiders:can_replace": [
+      "EntitySpider",
+      "EntityCaveSpider"
+    ],
+    "ENTITIES:tameable_spiders:web_immune": [
+      "EntitySpider",
+      "CUSTOM:Spider",
+      "EntityCaveSpider",
+      "CUSTOM:CaveSpider"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "it_it": {
+      "tameable_spiders.bed_claimed": "Letto rivendicato",
+      "gamerule.TameableSpiders_Ridable.description": "Consente ai giocatori di cavalcare ragni addomesticati adulti",
+      "gamerule.TameableSpiders_BabyRate.description": "La percentuale di probabilità che un ragno addomesticabile si generi come cucciolo",
+      "gamerule.TameableSpiders_Inventory.description": "Fornisce un inventario ai ragni addomesticabili",
+      "gamerule.TameableSpiders_KeepInventory": "Il ragno addomesticabile mantiene l\u0027inventario",
+      "gamerule.TameableSpiders_Ridable": "Ragni addomesticabili cavalcabili",
+      "advancements.exterminator.descr": "Uccidi 250 Aracnidi",
+      "gamerule.TameableSpiders_SpawnRate.description": "La percentuale di probabilità che un Ragno Vaniglia venga sostituito da un Ragno addomesticabile",
+      "gamerule.TameableSpiders_FallDamage.description": "Consente ai ragni di subire danni da caduta (disabilita se continuano a uccidersi mentre si arrampicano)",
+      "gamerule.TameableSpiders_BabyRate": "Tariffa cuccioli di ragni addomesticabili",
+      "advancements.stomach_ache.title": "Mal di stomaco",
+      "gamerule.TameableSpiders_BabyPoison.description": "Consente ai cuccioli di ragno delle caverne di infliggere veleno quando vengono colpiti, come farebbe un adulto",
+      "advancements.root.title": "Ragni addomesticabili",
+      "advancements.silk_spinner.descr": "Raccogli la seta da un ragno",
+      "tameable_spiders.minute": "minuto\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Collegato con successo",
+      "advancements.pest_control.descr": "Uccidi 50 Aracnidi",
+      "gamerule.TameableSpiders_KeepInventory.description": "Durante la rigenerazione non lasciare nulla nell\u0027inventario del ragno",
+      "advancements.vemon_milker.descr": "Raccogli il veleno da un ragno delle caverne",
+      "gamerule.TameableSpiders_Respawn": "Rigenerazione dei ragni addomesticabili",
+      "gamerule.TameableSpiders_SpawnRate": "Tasso di generazione dei ragni addomesticabili",
+      "gamerule.TameableSpiders_RespawnTime.description": "Il tempo trascorso dopo che il Ragno viene ucciso prima che possa rinascere nel suo letto collegato",
+      "gamerule.TameableSpiders_ProduceVemon.description": "I ragni delle caverne addomesticati produrranno veleno raccoglibile, raccolto con una bottiglia di vetro",
+      "entity.tameable_spiders.cave_spider": "Ragno delle caverne",
+      "gamerule.TameableSpiders_Respawn.description": "Permette ai ragni addomesticati di rigenerarsi",
+      "block.tameable_spiders.silk_web": "Rete di seta",
+      "advancements.pest_control.title": "Controllo dei parassiti",
+      "tameable_spiders.bed_missing": "Il letto non esiste più",
+      "advancements.arachnid_ally.descr": "Addomestica un ragno",
+      "entity.tameable_spiders.spider": "Ragno\ngamerule.TameableSpiders_BabyPoison",
+      "gamerule.TameableSpiders_FallDamage": "Danni da caduta dei ragni addomesticabili",
+      "tameable_spiders.home_already": "Quel ragno ha una casa",
+      "gamerule.TameableSpiders_ProduceVemon": "I ragni addomesticabili producono veleno",
+      "gamerule.TameableSpiders_Breeding.description": "Consenti ai ragni addomesticati di riprodursi e creare un cucciolo di ragno addomesticato",
+      "item.tameable_spiders.silk": "Seta\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Filatore di seta",
+      "gamerule.TameableSpiders_ProduceSilk": "I ragni addomesticabili producono seta",
+      "advancements.stomach_ache.descr": "Consuma il veleno di un ragno delle caverne",
+      "tameable_spiders.bed_respawning": "Rigenerazione\ntameable_spiders.bed_vacant",
+      "block.tameable_spiders.bed_south": "Letto del ragno",
+      "tameable_spiders.hour": "ora\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Inventario dei ragni addomesticabili",
+      "advancements.root.descr": "una mod che rende addomesticabili i ragni",
+      "gamerule.TameableSpiders_Breeding": "Allevamento di ragni addomesticabili",
+      "gamerule.TameableSpiders_RespawnTime": "Tempo di rigenerazione dei ragni addomesticabili",
+      "advancements.exterminator.title": "Sterminatore\nadvancements.arachnid_ally.title",
+      "block.tameable_spiders.bed_north": "Letto del ragno",
+      "gamerule.TameableSpiders_ProduceSilk.description": "I ragni addomesticati produrranno seta raccoglibile",
+      "advancements.vemon_milker.title": "Mungitore di veleno"
+    },
+    "ru_ru": {
+      "entity.tameable_spiders.cave_spider": "Пещерный паук",
+      "gamerule.TameableSpiders_Respawn.description": "Позволяет прирученным паукам возрождаться",
+      "tameable_spiders.bed_claimed": "Кровать востребована",
+      "gamerule.TameableSpiders_Ridable.description": "Позволяет игрокам кататься на взрослых прирученных пауках.",
+      "gamerule.TameableSpiders_BabyRate.description": "% шанса, что приручаемый паук появится в детстве",
+      "gamerule.TameableSpiders_Inventory.description": "Дает приручаемым паукам инвентарь",
+      "gamerule.TameableSpiders_KeepInventory": "Инвентарь приручаемого паука",
+      "gamerule.TameableSpiders_Ridable": "Приручаемые пауки, на которых можно ездить",
+      "advancements.pest_control.title": "Борьба с вредителями",
+      "gamerule.TameableSpiders_SpawnRate.description": "% шанса замены ванильного паука на приручаемого паука.",
+      "gamerule.TameableSpiders_FallDamage.description": "Позволяет паукам получать урон от падения (отключите, если они продолжают убивать себя во время лазания)",
+      "gamerule.TameableSpiders_BabyRate": "Детские ставки на приручаемых пауков",
+      "tameable_spiders.bed_missing": "Кровать больше не существует",
+      "advancements.arachnid_ally.descr": "Приручить паука",
+      "entity.tameable_spiders.spider": "Паук\ngamerule.TameableSpiders_BabyPoison",
+      "advancements.stomach_ache.title": "Боли в животе",
+      "gamerule.TameableSpiders_BabyPoison.description": "Позволяет детенышам пещерных пауков отравлять при нанесении удара, как это сделал бы взрослый.",
+      "gamerule.TameableSpiders_FallDamage": "Урон от падения приручаемых пауков",
+      "tameable_spiders.home_already": "У этого паука есть дом",
+      "gamerule.TameableSpiders_ProduceVemon": "Приручаемые пауки производят яд",
+      "advancements.root.title": "Приручаемые пауки",
+      "gamerule.TameableSpiders_Breeding.description": "Позвольте прирученным паукам размножаться и создать прирученного паука-детеныша.",
+      "item.tameable_spiders.silk": "Шелк\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Шелковый прядильщик",
+      "gamerule.TameableSpiders_ProduceSilk": "Приручаемые пауки производят шелк",
+      "advancements.stomach_ache.descr": "Поглотить яд пещерного паука",
+      "tameable_spiders.bed_respawning": "Возрождение\ntameable_spiders.bed_vacant",
+      "advancements.silk_spinner.descr": "Собрать шелк у паука",
+      "tameable_spiders.hour": "час\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Инвентарь приручаемых пауков",
+      "tameable_spiders.minute": "минута\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Соединение успешно установлено",
+      "advancements.root.descr": "мод, который делает пауков приручаемыми",
+      "advancements.pest_control.descr": "Убейте 50 паукообразных.",
+      "gamerule.TameableSpiders_Breeding": "Размножение приручаемых пауков",
+      "gamerule.TameableSpiders_KeepInventory.description": "При возрождении ничего не бросайте в инвентарь Паука.",
+      "advancements.vemon_milker.descr": "Соберите яд пещерного паука",
+      "gamerule.TameableSpiders_RespawnTime": "Время возрождения приручаемых пауков",
+      "advancements.exterminator.title": "истребитель\nadvancements.arachnid_ally.title",
+      "block.tameable_spiders.bed_north": "Кровать-паук\nblock.tameable_spiders.bed_south",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Прирученные пауки будут производить урожайный шелк.",
+      "gamerule.TameableSpiders_Respawn": "Возрождение приручаемых пауков",
+      "gamerule.TameableSpiders_SpawnRate": "Частота появления приручаемых пауков",
+      "advancements.vemon_milker.title": "Веном Милкер",
+      "gamerule.TameableSpiders_RespawnTime.description": "Время после убийства Паука, прежде чем он возродится на связанной с ним кровати.",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Прирученные пещерные пауки будут производить яд, который можно собрать в стеклянную бутылку."
+    },
+    "pl_pl": {
+      "tameable_spiders.bed_claimed": "Reklamacja łóżka",
+      "gamerule.TameableSpiders_Ridable.description": "Pozwala graczom jeździć na dorosłych oswojonych pająkach",
+      "gamerule.TameableSpiders_BabyRate.description": "% szans na oswojenie pająka na odrodzenie się jako dziecko",
+      "gamerule.TameableSpiders_Inventory.description": "Daje oswajalne pająki ekwipunek",
+      "gamerule.TameableSpiders_KeepInventory": "Ekwipunek kryjówki możliwego do oswojenia pająka",
+      "gamerule.TameableSpiders_Ridable": "Oswajalne pająki, na których można jeździć",
+      "advancements.exterminator.descr": "Zabij 250 pajęczaków",
+      "gamerule.TameableSpiders_SpawnRate.description": "% Szansa na zastąpienie Waniliowego Pająka przez Oswojonego Pająka",
+      "gamerule.TameableSpiders_FallDamage.description": "Pozwala pająkom na otrzymywanie obrażeń od upadku (wyłącz, jeśli zabijają się podczas wspinaczki)",
+      "gamerule.TameableSpiders_BabyRate": "Stawka dla małych pająków, które można oswoić",
+      "advancements.stomach_ache.title": "Ból brzucha",
+      "gamerule.TameableSpiders_BabyPoison.description": "Pozwala małym pająkom jaskiniowym zadawać truciznę przy trafieniu, tak jak zrobiłby to dorosły",
+      "advancements.root.title": "Oswajalne pająki",
+      "advancements.silk_spinner.descr": "Zbierz jedwab od pająka",
+      "tameable_spiders.minute": "minuta\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Pomyślnie połączone",
+      "advancements.pest_control.descr": "Zabij 50 pajęczaków",
+      "gamerule.TameableSpiders_KeepInventory.description": "Podczas odradzania się nie upuszczaj niczego do Ekwipunku Pająka",
+      "advancements.vemon_milker.descr": "Zbierz jad pająka jaskiniowego",
+      "gamerule.TameableSpiders_Respawn": "Odradzanie się pająków, które można oswoić",
+      "gamerule.TameableSpiders_SpawnRate": "Szybkość pojawiania się pająków, które można oswoić",
+      "gamerule.TameableSpiders_RespawnTime.description": "Czas po zabiciu Pająka, zanim odrodzi się w połączonym łóżku",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Oswojone pająki jaskiniowe będą produkować jad, który można zebrać za pomocą szklanej butelki",
+      "entity.tameable_spiders.cave_spider": "Pająk jaskiniowy",
+      "gamerule.TameableSpiders_Respawn.description": "Umożliwia odrodzenie się oswojonych pająków",
+      "block.tameable_spiders.silk_web": "Jedwabna sieć",
+      "advancements.pest_control.title": "Zwalczanie szkodników",
+      "tameable_spiders.bed_vacant": "Łóżko nieodebrane",
+      "tameable_spiders.bed_missing": "Łóżko już nie istnieje",
+      "advancements.arachnid_ally.descr": "Oswajaj pająka",
+      "entity.tameable_spiders.spider": "Pająk\ngamerule.TameableSpiders_BabyPoison",
+      "gamerule.TameableSpiders_FallDamage": "Obrażenia od upadku pająków, które można oswoić",
+      "tameable_spiders.home_already": "Ten pająk ma dom",
+      "gamerule.TameableSpiders_ProduceVemon": "Oswajalne pająki wytwarzają jad",
+      "gamerule.TameableSpiders_Breeding.description": "Pozwól oswojonym pająkom rozmnażać się i stwórz oswojonego małego pająka",
+      "item.tameable_spiders.silk": "Jedwab\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Przędzarka do jedwabiu",
+      "gamerule.TameableSpiders_ProduceSilk": "Oswajalne pająki produkują jedwab",
+      "advancements.stomach_ache.descr": "Zużyj jad pająka jaskiniowego",
+      "tameable_spiders.bed_respawning": "Odradzanie się",
+      "block.tameable_spiders.bed_south": "Łóżko pająka",
+      "tameable_spiders.hour": "godzina\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Inwentarz oswojonych pająków",
+      "advancements.root.descr": "mod, który sprawia, że pająki można oswoić",
+      "gamerule.TameableSpiders_Breeding": "Hodowla pająków, które można oswoić",
+      "gamerule.TameableSpiders_RespawnTime": "Czas odradzania się pająków, które można oswoić",
+      "advancements.exterminator.title": "Tępiciel\nadvancements.arachnid_ally.title",
+      "block.tameable_spiders.bed_north": "Łóżko pająka",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Oswojone pająki będą produkować jedwab, który można zebrać",
+      "advancements.vemon_milker.title": "Jadowy Dojnik"
+    },
+    "tr_tr": {
+      "tameable_spiders.bed_claimed": "Yatak Talep Edildi",
+      "gamerule.TameableSpiders_Ridable.description": "Oyuncuların Yetişkin Evcilleştirilmiş Örümceklere binmesine olanak tanır",
+      "gamerule.TameableSpiders_BabyRate.description": "Evcilleştirilebilir Bir Örümceğin Bebek Olarak Ortaya Çıkma Şansı",
+      "gamerule.TameableSpiders_Inventory.description": "Evcilleştirilebilir Örümceklere Bir Envanter Verir",
+      "gamerule.TameableSpiders_KeepInventory": "Evcilleştirilebilir Örümcek Envanterini Tut",
+      "gamerule.TameableSpiders_Ridable": "Evcilleştirilebilir Örümcekler Sürülebilir",
+      "advancements.exterminator.descr": "250 Arachnid öldür",
+      "gamerule.TameableSpiders_SpawnRate.description": "Vanilya Örümceğinin Evcilleştirilebilir Örümcekle Değiştirilme Şansı %",
+      "gamerule.TameableSpiders_FallDamage.description": "Örümceklerin Düşme Hasarı almasını sağlar (Tırmanırken kendilerini öldürmeye devam ederlerse devre dışı bırakılır)",
+      "gamerule.TameableSpiders_BabyRate": "Evcilleştirilebilir Örümcekler Bebek Oranı",
+      "advancements.stomach_ache.title": "Karın ağrısı",
+      "gamerule.TameableSpiders_BabyPoison.description": "Bebek Mağara Örümceklerinin bir Yetişkinin yapacağı gibi vuruş anında Zehir vermesini sağlar",
+      "advancements.root.title": "Evcilleştirilebilir Örümcekler",
+      "advancements.silk_spinner.descr": "Bir Örümcekten İpek Toplayın",
+      "tameable_spiders.minute": "dakika\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Başarıyla Bağlandı",
+      "advancements.pest_control.descr": "50 Araknid öldür",
+      "gamerule.TameableSpiders_KeepInventory.description": "Yeniden doğduğunuzda Örümcek Envanterine hiçbir şey düşürmeyin",
+      "advancements.vemon_milker.descr": "Bir Mağara Örümceğinden Zehir Topla",
+      "gamerule.TameableSpiders_Respawn": "Evcilleştirilebilir Örümcekler Yeniden Doğuyor",
+      "gamerule.TameableSpiders_SpawnRate": "Evcilleştirilebilir Örümceklerin Yumurtlama Oranı",
+      "gamerule.TameableSpiders_RespawnTime.description": "Örümcek, bağlantılı yatağında yeniden doğmadan önce öldürüldükten sonraki zaman",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Evcilleştirilmiş Mağara Örümcekleri, Cam Şişe ile toplanan hasat edilebilir Zehir üretecek",
+      "entity.tameable_spiders.cave_spider": "Mağara örümceği",
+      "gamerule.TameableSpiders_Respawn.description": "Evcilleştirilmiş Örümceklerin Yeniden Doğmasını Sağlar",
+      "block.tameable_spiders.silk_web": "İpek Ağı",
+      "advancements.pest_control.title": "Haşere kontrolü",
+      "tameable_spiders.bed_vacant": "Yatak Talep Edilmedi",
+      "tameable_spiders.bed_missing": "Yatak artık mevcut değil",
+      "advancements.arachnid_ally.descr": "Bir örümceği evcilleştirin",
+      "entity.tameable_spiders.spider": "Örümcek\ngamerule.TameableSpiders_BabyPoison",
+      "gamerule.TameableSpiders_FallDamage": "Evcilleştirilebilir Örümceklerin Düşme Hasarı",
+      "advancements.arachnid_ally.title": "Araknid Müttefiki",
+      "tameable_spiders.home_already": "O Örümceğin Bir Evi Var",
+      "gamerule.TameableSpiders_ProduceVemon": "Evcilleştirilebilir Örümcekler Zehir Üretiyor",
+      "gamerule.TameableSpiders_Breeding.description": "Evcilleştirilmiş Örümceklerin evcilleştirilmiş bir Bebek Örümcek üretmesine ve yaratmasına izin verin",
+      "item.tameable_spiders.silk": "İpek\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "İpek Dönücü",
+      "gamerule.TameableSpiders_ProduceSilk": "Evcilleştirilebilir Örümcekler İpek Üretiyor",
+      "advancements.stomach_ache.descr": "Mağara Örümceğinden Zehir Tüketin",
+      "tameable_spiders.bed_respawning": "Yeniden doğma",
+      "block.tameable_spiders.bed_south": "Örümcek Yatağı",
+      "tameable_spiders.hour": "saat\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Evcilleştirilebilir Örümcekler Envanteri",
+      "advancements.root.descr": "örümcekleri evcilleştirilebilir hale getiren bir mod",
+      "gamerule.TameableSpiders_Breeding": "Evcilleştirilebilir Örümcekler Yetiştiriciliği",
+      "gamerule.TameableSpiders_RespawnTime": "Evcilleştirilebilir Örümceklerin Yeniden Doğma Süresi",
+      "advancements.exterminator.title": "Yok edici",
+      "block.tameable_spiders.bed_north": "Örümcek Yatağı",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Evcilleştirilmiş Örümcekler hasat edilebilir İpek üretecek",
+      "advancements.vemon_milker.title": "Zehir Sağıcı"
+    },
+    "id_id": {
+      "tameable_spiders.bed_claimed": "Tempat Tidur Diklaim",
+      "gamerule.TameableSpiders_Ridable.description": "Memungkinkan Pemain mengendarai Laba-laba Tamed Dewasa",
+      "gamerule.TameableSpiders_BabyRate.description": "%Peluang Laba-Laba yang Dapat Dijinakkan untuk muncul sebagai Bayi",
+      "gamerule.TameableSpiders_Inventory.description": "Memberikan Inventaris kepada Laba-Laba yang Dapat Dijinakkan",
+      "gamerule.TameableSpiders_KeepInventory": "Laba-laba yang Dapat Dijinakkan Menyimpan Inventaris",
+      "gamerule.TameableSpiders_Ridable": "Laba-laba yang Dapat Dijinakkan Dapat Ditunggangi",
+      "advancements.exterminator.descr": "Bunuh 250 Arakhnida",
+      "gamerule.TameableSpiders_SpawnRate.description": "%Peluang Vanilla Spider digantikan oleh Tamable Spider",
+      "gamerule.TameableSpiders_FallDamage.description": "Mengizinkan Laba-laba menerima Kerusakan Jatuh (Nonaktifkan jika mereka terus membunuh dirinya sendiri saat Memanjat)",
+      "gamerule.TameableSpiders_BabyRate": "Tingkat Bayi Laba-laba yang Dapat Dijinakkan",
+      "advancements.stomach_ache.title": "Sakit perut",
+      "gamerule.TameableSpiders_BabyPoison.description": "Mengizinkan Laba-laba Gua Bayi Menimbulkan Racun saat dipukul, seperti yang dilakukan orang dewasa",
+      "advancements.root.title": "Laba-laba yang Dapat Dijinakkan",
+      "advancements.silk_spinner.descr": "Kumpulkan Sutra dari Laba-laba",
+      "tameable_spiders.minute": "menit\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Berhasil Ditautkan",
+      "advancements.pest_control.descr": "Bunuh 50 Arakhnida",
+      "gamerule.TameableSpiders_KeepInventory.description": "Saat respawn, jangan jatuhkan apa pun ke dalam Inventaris Laba-laba",
+      "advancements.vemon_milker.descr": "Kumpulkan Venom dari Laba-laba Gua",
+      "gamerule.TameableSpiders_Respawn": "Laba-laba yang Dapat Dijinakkan Respawn",
+      "gamerule.TameableSpiders_SpawnRate": "Tingkat Pemijahan Laba-laba yang Dapat Dijinakkan",
+      "gamerule.TameableSpiders_RespawnTime.description": "Waktu setelah Laba-laba terbunuh sebelum ia muncul kembali di tempat tidurnya yang terhubung",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Laba-laba Gua yang Dijinakkan akan menghasilkan Venom yang dapat dipanen, dikumpulkan dengan Botol Kaca",
+      "entity.tameable_spiders.cave_spider": "Laba-laba gua",
+      "gamerule.TameableSpiders_Respawn.description": "Mengizinkan Laba-laba yang Dijinakkan untuk Respawn",
+      "block.tameable_spiders.silk_web": "Jaring Sutra",
+      "advancements.pest_control.title": "Pengendalian hama",
+      "tameable_spiders.bed_vacant": "Tempat Tidur Tidak Diklaim",
+      "tameable_spiders.bed_missing": "Tempat tidur sudah tidak ada lagi",
+      "advancements.arachnid_ally.descr": "Menjinakkan Laba-laba",
+      "entity.tameable_spiders.spider": "Laba-laba\ngamerule.TameableSpiders_BabyPoison",
+      "gamerule.TameableSpiders_FallDamage": "Kerusakan Jatuh Laba-laba yang Dapat Dijinakkan",
+      "tameable_spiders.home_already": "Laba-laba itu punya Rumah",
+      "gamerule.TameableSpiders_ProduceVemon": "Laba-laba yang Dapat Dijinakkan Menghasilkan Racun",
+      "gamerule.TameableSpiders_Breeding.description": "Biarkan Laba-laba Tamed berkembang biak dan membuat Bayi Laba-laba Tamed",
+      "item.tameable_spiders.silk": "Sutra\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Pemintal Sutra",
+      "spider_inventory.tooltip_saddle": "Tekan kontrol untuk memasang Spider",
+      "gamerule.TameableSpiders_ProduceSilk": "Laba-laba yang Dapat Dijinakkan Menghasilkan Sutra",
+      "advancements.stomach_ache.descr": "Konsumsi Venom dari Laba-laba Gua",
+      "tameable_spiders.bed_respawning": "Muncul kembali",
+      "block.tameable_spiders.bed_south": "Tempat Tidur Laba-laba",
+      "tameable_spiders.hour": "jam\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Inventaris Laba-laba yang Dapat Dijinakkan",
+      "advancements.root.descr": "mod yang membuat laba-laba bisa dijinakkan",
+      "gamerule.TameableSpiders_Breeding": "Pembiakan Laba-laba yang Dapat Dijinakkan",
+      "gamerule.TameableSpiders_RespawnTime": "Waktu Respawn Laba-laba yang Dapat Dijinakkan",
+      "advancements.exterminator.title": "Pembasmi\nadvancements.arachnid_ally.title",
+      "block.tameable_spiders.bed_north": "Tempat Tidur Laba-laba",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Laba-laba yang Dijinakkan akan menghasilkan Sutra yang bisa dipanen",
+      "advancements.vemon_milker.title": "Pemerah Racun"
+    },
+    "pt_br": {
+      "tameable_spiders.bed_claimed": "Cama reivindicada",
+      "gamerule.TameableSpiders_Ridable.description": "Permite que os jogadores montem aranhas domesticadas adultas",
+      "gamerule.TameableSpiders_BabyRate.description": "A% de chance de uma aranha domesticada aparecer quando bebê",
+      "gamerule.TameableSpiders_Inventory.description": "Dá um inventário às aranhas domesticáveis",
+      "gamerule.TameableSpiders_KeepInventory": "Inventário de Aranha Tamável",
+      "gamerule.TameableSpiders_Ridable": "Aranhas Tamáveis Montáveis",
+      "advancements.exterminator.descr": "Mate 250 Aracnídeos",
+      "gamerule.TameableSpiders_SpawnRate.description": "A% de chance de uma Aranha Baunilha ser substituída por uma Aranha Tamável",
+      "gamerule.TameableSpiders_FallDamage.description": "Permite que as aranhas recebam danos de queda (desative se elas continuarem se matando enquanto escalam)",
+      "gamerule.TameableSpiders_BabyRate": "Taxa de bebê de aranhas domesticáveis",
+      "advancements.stomach_ache.title": "Dor de estômago",
+      "gamerule.TameableSpiders_BabyPoison.description": "Permite que as aranhas da caverna bebês inflijam veneno ao serem atingidas, como um adulto faria",
+      "advancements.root.title": "Aranhas Domáveis",
+      "advancements.silk_spinner.descr": "Colete seda de uma aranha",
+      "tameable_spiders.minute": "minuto\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Vinculado com sucesso",
+      "advancements.pest_control.descr": "Mate 50 Aracnídeos",
+      "gamerule.TameableSpiders_KeepInventory.description": "Ao reaparecer, não deixe cair nada no inventário da aranha",
+      "advancements.vemon_milker.descr": "Colete veneno de uma aranha da caverna",
+      "gamerule.TameableSpiders_Respawn": "Reaparecimento de Aranhas Tamáveis",
+      "gamerule.TameableSpiders_SpawnRate": "Taxa de aparecimento de aranhas domesticáveis",
+      "gamerule.TameableSpiders_RespawnTime.description": "O tempo após a aranha ser morta antes de ela reaparecer em seu leito vinculado",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Aranhas da caverna domesticadas produzirão veneno colhível, coletado em uma garrafa de vidro",
+      "entity.tameable_spiders.cave_spider": "Aranha da caverna",
+      "gamerule.TameableSpiders_Respawn.description": "Permite que aranhas domesticadas renasçam",
+      "block.tameable_spiders.silk_web": "Teia de seda",
+      "advancements.pest_control.title": "Controle de pragas",
+      "tameable_spiders.bed_missing": "A cama não existe mais",
+      "advancements.arachnid_ally.descr": "Domine uma aranha",
+      "entity.tameable_spiders.spider": "Aranha\ngamerule.TameableSpiders_BabyPoison",
+      "gamerule.TameableSpiders_FallDamage": "Danos de queda de aranhas domesticáveis",
+      "tameable_spiders.home_already": "Essa aranha tem um lar",
+      "gamerule.TameableSpiders_ProduceVemon": "Aranhas Domáveis Produzem Veneno",
+      "gamerule.TameableSpiders_Breeding.description": "Permitir que aranhas domesticadas se reproduzam e criem uma aranha bebê domesticada",
+      "item.tameable_spiders.silk": "Seda\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Fiador de seda",
+      "gamerule.TameableSpiders_ProduceSilk": "Aranhas Domáveis Produzem Seda",
+      "advancements.stomach_ache.descr": "Consumir veneno de uma aranha da caverna",
+      "tameable_spiders.bed_respawning": "Renascendo\ntameable_spiders.bed_vacant",
+      "block.tameable_spiders.bed_south": "Cama de aranha",
+      "tameable_spiders.hour": "hora\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Inventário de Aranhas Tamáveis",
+      "advancements.root.descr": "um mod que torna as aranhas domesticáveis",
+      "gamerule.TameableSpiders_Breeding": "Criação de aranhas domesticáveis",
+      "gamerule.TameableSpiders_RespawnTime": "Hora de respawn das aranhas domesticáveis",
+      "advancements.exterminator.title": "Exterminador\nadvancements.arachnid_ally.title",
+      "block.tameable_spiders.bed_north": "Cama de aranha",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Aranhas Domadas produzirão Seda colhível",
+      "advancements.vemon_milker.title": "Ordenhador de veneno"
+    },
+    "ja_jp": {
+      "advancements.arachnid_ally.descr": "クモを飼いならす\nadvancements.exterminator.title",
+      "gamerule.TameableSpiders_Ridable.description": "プレイヤーが大人の飼い慣らされたクモに乗れるようになる\ngamerule.TameableSpiders_SpawnRate",
+      "gamerule.TameableSpiders_BabyPoison.description": "洞窟の幼虫が大人と同じように攻撃すると毒を与えることができるようになる\ngamerule.TameableSpiders_BabyRate"
+    },
+    "cs_cz": {
+      "tameable_spiders.bed_claimed": "Postel nárokována",
+      "gamerule.TameableSpiders_Ridable.description": "Umožňuje hráčům jezdit na dospělých zkrocených pavoucích",
+      "gamerule.TameableSpiders_BabyRate.description": "Šance, že se zkrotitelný pavouk objeví jako dítě",
+      "gamerule.TameableSpiders_Inventory.description": "Poskytuje zkrotitelným pavoukům inventář",
+      "gamerule.TameableSpiders_KeepInventory": "Zkrotitelný Spider Keep Inventory",
+      "gamerule.TameableSpiders_Ridable": "Krotitelní pavouci Jízdní",
+      "advancements.exterminator.descr": "Zabijte 250 pavoukovců",
+      "gamerule.TameableSpiders_SpawnRate.description": "% šance, že bude vanilkový pavouk nahrazen zkrotitelným pavoukem",
+      "gamerule.TameableSpiders_FallDamage.description": "Umožňuje pavoukům nést poškození při pádu (vypnout, pokud se při lezení neustále zabíjejí)",
+      "gamerule.TameableSpiders_BabyRate": "Zkrotitelné pavouky Baby Rate",
+      "advancements.stomach_ache.title": "Bolení břicha",
+      "gamerule.TameableSpiders_BabyPoison.description": "Umožňuje Baby jeskynním pavoukům způsobit při zásahu jed, jako by to udělal dospělý",
+      "advancements.root.title": "Zkrotitelní pavouci",
+      "advancements.silk_spinner.descr": "Sbírejte hedvábí z pavouka",
+      "tameable_spiders.minute": "minuta\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Úspěšně propojeno",
+      "advancements.pest_control.descr": "Zabijte 50 pavoukovců",
+      "gamerule.TameableSpiders_KeepInventory.description": "Při respawnování nepouštějte nic do Spider\u0027s Inventory",
+      "advancements.vemon_milker.descr": "Sbírejte Venom z jeskynního pavouka",
+      "gamerule.TameableSpiders_Respawn": "Respawn zkrotitelných pavouků",
+      "gamerule.TameableSpiders_SpawnRate": "Míra rozmnožování zkrotitelných pavouků",
+      "gamerule.TameableSpiders_RespawnTime.description": "Čas poté, co je pavouk zabit, než se znovu objeví na své propojené posteli",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Zkrocení jeskynní pavouci budou produkovat jed, který lze sklízet, sesbíraný pomocí skleněné láhve",
+      "entity.tameable_spiders.cave_spider": "Jeskynní pavouk",
+      "gamerule.TameableSpiders_Respawn.description": "Umožňuje zkroceným pavoukům znovu se objevit",
+      "block.tameable_spiders.silk_web": "Hedvábný web",
+      "advancements.pest_control.title": "Hubení škůdců",
+      "tameable_spiders.bed_missing": "Postel již neexistuje",
+      "advancements.arachnid_ally.descr": "Zkroťte si pavouka",
+      "entity.tameable_spiders.spider": "Pavouk\ngamerule.TameableSpiders_BabyPoison",
+      "gamerule.TameableSpiders_FallDamage": "Poškození zkrotitelnými pavouky",
+      "tameable_spiders.home_already": "Ten pavouk má domov",
+      "gamerule.TameableSpiders_ProduceVemon": "Zkrotitelní pavouci produkují jed",
+      "gamerule.TameableSpiders_Breeding.description": "Umožněte zkroceným pavoukům množit se a vytvořit zkrocené dítě pavouka",
+      "item.tameable_spiders.silk": "Hedvábí\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Spinner na hedvábí",
+      "gamerule.TameableSpiders_ProduceSilk": "Zkrotitelní pavouci produkují hedvábí",
+      "advancements.stomach_ache.descr": "Spotřebujte jed z jeskynního pavouka",
+      "tameable_spiders.bed_respawning": "Respawning\ntameable_spiders.bed_vacant",
+      "block.tameable_spiders.bed_south": "Pavoučí postel",
+      "tameable_spiders.hour": "hodina\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Inventář zkrotitelných pavouků",
+      "advancements.root.descr": "mod, který dělá pavouky zkrotitelnými",
+      "gamerule.TameableSpiders_Breeding": "Chov ochočitelných pavouků",
+      "gamerule.TameableSpiders_RespawnTime": "Doba znovuspawnování zkrotitelných pavouků",
+      "advancements.exterminator.title": "Deratizátor\nadvancements.arachnid_ally.title",
+      "block.tameable_spiders.bed_north": "Pavoučí postel",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Zkrocení pavouci budou produkovat hedvábí, které lze sklízet",
+      "advancements.vemon_milker.title": "Venom Milker"
+    },
+    "el_cy": {
+      "tameable_spiders.bed_claimed": "Κρεβάτι που διεκδικήθηκε",
+      "gamerule.TameableSpiders_Ridable.description": "Επιτρέπει στους παίκτες να οδηγούν το Adult Tamed Spiders",
+      "gamerule.TameableSpiders_BabyRate.description": "Η %Ευκαιρία για μια Tamable Spider να γεννηθεί ως μωρό",
+      "gamerule.TameableSpiders_Inventory.description": "Δίνει στο Tamable Spiders ένα απόθεμα",
+      "gamerule.TameableSpiders_KeepInventory": "Tamable Spider Keep Inventory",
+      "gamerule.TameableSpiders_Ridable": "Tamable Spiders Rideable",
+      "advancements.exterminator.descr": "Σκότωσε 250 Αραχνίδες",
+      "gamerule.TameableSpiders_SpawnRate.description": "Η %Πιθανότητα για μια αράχνη Vanilla να αντικατασταθεί από μια Tamable Spider",
+      "gamerule.TameableSpiders_FallDamage.description": "Επιτρέπει στις αράχνες να υποστούν ζημιά από πτώση (Απενεργοποίηση αν συνεχίσουν να αυτοκτονούν ενώ σκαρφαλώνουν)",
+      "gamerule.TameableSpiders_BabyRate": "Tamable Spiders Baby Rate",
+      "advancements.stomach_ache.title": "Στομαχόπονος\nblock.tameable_spiders.bed_north",
+      "gamerule.TameableSpiders_BabyPoison.description": "Επιτρέπει στο Baby Cave Spiders να προκαλεί δηλητήριο στο χτύπημα, όπως θα έκανε ένας ενήλικας",
+      "advancements.root.title": "Δαμαστές αράχνες",
+      "advancements.silk_spinner.descr": "Συλλέξτε μετάξι από μια αράχνη",
+      "tameable_spiders.minute": "λεπτό\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Συνδέθηκε με επιτυχία",
+      "advancements.pest_control.descr": "Σκότωσε 50 Αραχνοειδείς",
+      "gamerule.TameableSpiders_KeepInventory.description": "Κατά την αναγέννηση μην ρίχνετε τίποτα στο Απόθεμα της Αράχνης",
+      "advancements.vemon_milker.descr": "Συλλέξτε δηλητήριο από μια αράχνη σπηλιάς",
+      "gamerule.TameableSpiders_Respawn": "Tamable Spiders Respawn",
+      "gamerule.TameableSpiders_SpawnRate": "Ποσοστό ωοτοκίας Tamable Spiders",
+      "gamerule.TameableSpiders_RespawnTime.description": "Ο Χρόνος μετά τη δολοφονία της Αράχνης προτού αναγεννηθεί στο συνδεδεμένο κρεβάτι της",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Το Tamed Cave Spiders θα παράγει συγκομιδή Δηλητήριο, που θα συλλέγεται με ένα γυάλινο μπουκάλι",
+      "entity.tameable_spiders.cave_spider": "Cave Spider",
+      "gamerule.TameableSpiders_Respawn.description": "Επιτρέπει στο Tamed Spiders να αναγεννηθεί",
+      "block.tameable_spiders.silk_web": "Μεταξωτός Ιστός",
+      "advancements.pest_control.title": "Έλεγχος παρασίτων",
+      "tameable_spiders.bed_missing": "Το κρεβάτι δεν υπάρχει πια",
+      "advancements.arachnid_ally.descr": "Δαμάστε μια Αράχνη",
+      "entity.tameable_spiders.spider": "Αράχνη\ngamerule.TameableSpiders_BabyPoison",
+      "gamerule.TameableSpiders_FallDamage": "Ζημιά από πτώση Tamable Spiders",
+      "tameable_spiders.home_already": "Αυτή η Αράχνη έχει σπίτι",
+      "gamerule.TameableSpiders_ProduceVemon": "Οι Tamable Spiders Παράγουν Δηλητήριο",
+      "gamerule.TameableSpiders_Breeding.description": "Επιτρέψτε στις Tamed Spiders να αναπαραχθούν και να δημιουργήσετε μια Tamed Baby Spider",
+      "item.tameable_spiders.silk": "Μετάξι\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Silk Spinner",
+      "gamerule.TameableSpiders_ProduceSilk": "Οι δεσμευτικές αράχνες παράγουν μετάξι",
+      "advancements.stomach_ache.descr": "Καταναλώστε δηλητήριο από μια αράχνη σπηλιάς",
+      "tameable_spiders.bed_respawning": "Επαναγέννηση\ntameable_spiders.bed_vacant",
+      "block.tameable_spiders.bed_south": "Κρεβάτι αράχνη",
+      "tameable_spiders.hour": "ώρα\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Απογραφή Tamable Spiders",
+      "advancements.root.descr": "ένα mod που κάνει τις αράχνες δατάσιμες",
+      "gamerule.TameableSpiders_Breeding": "Εκτροφή Δασμών Αράχνων",
+      "gamerule.TameableSpiders_RespawnTime": "Tamable Spiders Time Respawn",
+      "advancements.exterminator.title": "Εξολοθρευτής\nadvancements.arachnid_ally.title",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Το Tamed Spiders θα παράγει συγκομιδή μετάξι",
+      "advancements.vemon_milker.title": "Venom Milker"
+    },
+    "hu_hu": {
+      "gamerule.TameableSpiders_Respawn.description": "Lehetővé teszi a Megszelídített Pókok újjászületését",
+      "tameable_spiders.bed_claimed": "Bed Claimed",
+      "gamerule.TameableSpiders_Ridable.description": "Lehetővé teszi a játékosok számára, hogy felnőtt szelídített pókokon lovagoljanak",
+      "gamerule.TameableSpiders_BabyRate.description": "Az esély arra, hogy egy szelídíthető pók babaként szüljön",
+      "gamerule.TameableSpiders_Inventory.description": "Leltárt ad a Szelídíthető Pókoknak",
+      "gamerule.TameableSpiders_KeepInventory": "Szelídíthető pók leltár",
+      "gamerule.TameableSpiders_Ridable": "Szelídíthető pókok lovagolható",
+      "advancements.exterminator.descr": "Ölj meg 250 pókfélét",
+      "advancements.pest_control.title": "Kártevő írtás",
+      "gamerule.TameableSpiders_SpawnRate.description": "Az esély arra, hogy egy vanília pók helyett egy szelídített pók kerüljön",
+      "gamerule.TameableSpiders_FallDamage.description": "Lehetővé teszi, hogy a pókok esésben szenvedjenek (letiltja, ha folyamatosan öngyilkos lesz mászás közben)",
+      "gamerule.TameableSpiders_BabyRate": "Tamable Spiders Baby Rate",
+      "tameable_spiders.bed_missing": "Az ágy már nem létezik",
+      "advancements.arachnid_ally.descr": "Szelídíts meg egy pókot",
+      "entity.tameable_spiders.spider": "Pók\ngamerule.TameableSpiders_BabyPoison",
+      "gamerule.TameableSpiders_BabyPoison.description": "Lehetővé teszi a barlangi pókok számára, hogy mérgezést okozzanak, ahogy egy felnőtt tenné",
+      "gamerule.TameableSpiders_FallDamage": "Szelídíthető pókok esési sérülései",
+      "tameable_spiders.home_already": "Annak a Póknak otthona van",
+      "gamerule.TameableSpiders_ProduceVemon": "Szelídíthető pókok mérget termelnek",
+      "advancements.root.title": "Szelídíthető pókok",
+      "gamerule.TameableSpiders_Breeding.description": "Engedd, hogy a Tamed Spiders szaporodjanak, és létrehozzanak egy Tamed Baby Spider-t",
+      "item.tameable_spiders.silk": "Selyem\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Selyemfonó\nadvancements.stomach_ache.title",
+      "gamerule.TameableSpiders_ProduceSilk": "Szelídíthető pókok selymet termelnek",
+      "advancements.stomach_ache.descr": "Fogyasszon mérget egy barlangi pókból",
+      "tameable_spiders.bed_respawning": "Újjászületés\ntameable_spiders.bed_vacant",
+      "advancements.silk_spinner.descr": "Gyűjts selymet egy póktól",
+      "tameable_spiders.hour": "óra\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Szelídíthető pókok leltár",
+      "tameable_spiders.minute": "perc\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Sikeres linkelés",
+      "advancements.root.descr": "egy mod, ami szelídíthetővé teszi a pókokat",
+      "advancements.pest_control.descr": "Ölj meg 50 pókfélét",
+      "gamerule.TameableSpiders_Breeding": "Szelídíthető pókok tenyésztése",
+      "gamerule.TameableSpiders_KeepInventory.description": "Újjászületéskor ne dobj semmit a Spider\u0027s Inventory-ba",
+      "advancements.vemon_milker.descr": "Gyűjts mérget egy barlangi pókból",
+      "gamerule.TameableSpiders_RespawnTime": "Tamable Spiders Respawn Time",
+      "advancements.exterminator.title": "Irtószer\nadvancements.arachnid_ally.title",
+      "gamerule.TameableSpiders_ProduceSilk.description": "A Tamed Spiders betakarítható selymet fog termelni",
+      "gamerule.TameableSpiders_Respawn": "Tamable Spiders Respawn",
+      "gamerule.TameableSpiders_SpawnRate": "Tamable Spiders Spawn Rate",
+      "advancements.vemon_milker.title": "Venom Milker",
+      "gamerule.TameableSpiders_RespawnTime.description": "A Pók megölése utáni idő, mielőtt újraéledne a kapcsolódó medrében",
+      "gamerule.TameableSpiders_ProduceVemon.description": "A Tamed Cave Spiders betakarítható mérget termel, amelyet üvegpalackkal gyűjtenek össze"
+    },
+    "nb_no": {
+      "gamerule.TameableSpiders_Respawn.description": "Lar temmede edderkopper gjenoppstå",
+      "tameable_spiders.bed_claimed": "Seng hevdet",
+      "block.tameable_spiders.silk_web": "Silkevev\nentity.tameable_spiders.cave_spider",
+      "gamerule.TameableSpiders_Ridable.description": "Lar spillere ri på voksne temmede edderkopper",
+      "gamerule.TameableSpiders_BabyRate.description": "Sjansen for en tambar edderkopp å gyte som baby",
+      "gamerule.TameableSpiders_Inventory.description": "Gir temmebare edderkopper en inventar",
+      "gamerule.TameableSpiders_KeepInventory": "Tamable Spider Hold inventar",
+      "gamerule.TameableSpiders_Ridable": "Tambare edderkopper Rideable",
+      "advancements.pest_control.title": "Skadedyrbekjempelse\nadvancements.root.descr",
+      "gamerule.TameableSpiders_SpawnRate.description": "Sjansen for at en vaniljeedderkopp blir erstattet av en tembar edderkopp",
+      "gamerule.TameableSpiders_FallDamage.description": "Lar edderkopper ta fallskade (deaktiver hvis de fortsetter å drepe seg selv mens de klatrer)",
+      "gamerule.TameableSpiders_BabyRate": "Tambare edderkopper Baby Rate",
+      "tameable_spiders.bed_missing": "Sengen eksisterer ikke lenger",
+      "advancements.arachnid_ally.descr": "Temme en edderkopp",
+      "gamerule.TameableSpiders_BabyPoison.description": "Tillater Baby Cave Edderkopper å påføre gift ved treff, som en voksen ville gjort",
+      "gamerule.TameableSpiders_FallDamage": "Fallskade for tambare edderkopper",
+      "tameable_spiders.home_already": "Den edderkoppen har et hjem",
+      "gamerule.TameableSpiders_ProduceVemon": "Tambare edderkopper produserer gift",
+      "advancements.root.title": "Tambare edderkopper",
+      "gamerule.TameableSpiders_Breeding.description": "La temmede edderkopper avle og lage en temmet babyedderkopp",
+      "item.tameable_spiders.silk": "Silke\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Silkespinner\nadvancements.stomach_ache.title",
+      "gamerule.TameableSpiders_ProduceSilk": "Tambare edderkopper produserer silke",
+      "advancements.stomach_ache.descr": "Spis gift fra en huledderkopp",
+      "tameable_spiders.bed_respawning": "Gjenoppliving\ntameable_spiders.bed_vacant",
+      "block.tameable_spiders.bed_south": "Spider Bed",
+      "advancements.silk_spinner.descr": "Samle silke fra en edderkopp",
+      "tameable_spiders.hour": "time\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Inventar av tembare edderkopper",
+      "tameable_spiders.minute": "minutt\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Vellykket koblet",
+      "advancements.pest_control.descr": "Drep 50 spindlere",
+      "gamerule.TameableSpiders_Breeding": "Oppdrett av temme edderkopper",
+      "gamerule.TameableSpiders_KeepInventory.description": "Ikke slipp noe i edderkoppens inventar under respawning",
+      "advancements.vemon_milker.descr": "Samle gift fra en huledderkopp",
+      "gamerule.TameableSpiders_RespawnTime": "Gjenopprettingstid for tambare edderkopper",
+      "advancements.exterminator.title": "Utrydder\nadvancements.arachnid_ally.title",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Tamed Edderkopper vil produsere høstbar silke",
+      "gamerule.TameableSpiders_Respawn": "Tambare edderkopper gjenoppstår",
+      "gamerule.TameableSpiders_SpawnRate": "Spawnrate for tambare edderkopper",
+      "advancements.vemon_milker.title": "Venom Melker",
+      "gamerule.TameableSpiders_RespawnTime.description": "Tiden etter at edderkoppen er drept før den vil gjenoppstå ved dens tilknyttede seng",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Tamed Cave Edderkopper vil produsere gift som kan høstes, samlet med en glassflaske"
+    },
+    "zh_tw": {
+      "advancements.pest_control.descr": "殺死 50 隻蜘蛛",
+      "advancements.arachnid_ally.descr": "馴服一隻蜘蛛\nadvancements.exterminator.title",
+      "gamerule.TameableSpiders_Ridable.description": "允許玩家騎乘成年馴服蜘蛛\ngamerule.TameableSpiders_SpawnRate",
+      "advancements.pest_control.title": "除害蟲\nadvancements.root.descr"
+    },
+    "es_mx": {
+      "tameable_spiders.bed_claimed": "Cama reclamada",
+      "gamerule.TameableSpiders_Ridable.description": "Permite a los jugadores montar arañas domesticadas adultas.",
+      "gamerule.TameableSpiders_BabyRate.description": "El % de probabilidad de que una araña domesticable se genere cuando sea bebé",
+      "gamerule.TameableSpiders_Inventory.description": "Da un inventario a las arañas domesticables",
+      "gamerule.TameableSpiders_KeepInventory": "Inventario de la torre de arañas domesticables",
+      "gamerule.TameableSpiders_Ridable": "Arañas domesticables",
+      "advancements.exterminator.descr": "Mata a 250 arácnidos",
+      "gamerule.TameableSpiders_SpawnRate.description": "El % de probabilidad de que una araña vainilla sea reemplazada por una araña domesticable",
+      "gamerule.TameableSpiders_FallDamage.description": "Permite que las arañas sufran daño por caída (desactivar si siguen matándose mientras trepan)",
+      "gamerule.TameableSpiders_BabyRate": "Tarifa Bebé Arañas Tamables",
+      "advancements.stomach_ache.title": "Dolor de estómago",
+      "gamerule.TameableSpiders_BabyPoison.description": "Permite que las crías de arañas cavernícolas inflijan veneno al golpear, como lo haría un adulto.",
+      "advancements.root.title": "Arañas domesticables",
+      "advancements.silk_spinner.descr": "Recoge seda de una araña",
+      "tameable_spiders.minute": "minuto\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Vinculado exitosamente",
+      "advancements.pest_control.descr": "Mata a 50 arácnidos",
+      "gamerule.TameableSpiders_KeepInventory.description": "Al reaparecer, no dejes caer nada en el inventario de la araña.",
+      "advancements.vemon_milker.descr": "Recoge veneno de una araña de las cavernas",
+      "gamerule.TameableSpiders_Respawn": "Reaparición de arañas domesticables",
+      "gamerule.TameableSpiders_SpawnRate": "Tasa de generación de arañas domesticables",
+      "gamerule.TameableSpiders_RespawnTime.description": "El tiempo después de que matan a la araña antes de que reaparezca en su lecho vinculado",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Las arañas cavernícolas domesticadas producirán veneno cosechable, recolectado con una botella de vidrio.",
+      "entity.tameable_spiders.cave_spider": "Araña de las cuevas",
+      "gamerule.TameableSpiders_Respawn.description": "Permite que las arañas domesticadas reaparezcan",
+      "block.tameable_spiders.silk_web": "Telaraña de seda",
+      "advancements.pest_control.title": "Control de plagas",
+      "tameable_spiders.bed_missing": "La cama ya no existe",
+      "advancements.arachnid_ally.descr": "domesticar una araña",
+      "entity.tameable_spiders.spider": "Araña\ngamerule.TameableSpiders_BabyPoison",
+      "gamerule.TameableSpiders_FallDamage": "Daño por caída de arañas domesticables",
+      "tameable_spiders.home_already": "Esa araña tiene un hogar",
+      "gamerule.TameableSpiders_ProduceVemon": "Las arañas domesticables producen veneno",
+      "gamerule.TameableSpiders_Breeding.description": "Permita que las arañas domesticadas se reproduzcan y cree una araña bebé domesticada",
+      "item.tameable_spiders.silk": "Seda\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Hilandero de seda",
+      "gamerule.TameableSpiders_ProduceSilk": "Las arañas domesticables producen seda",
+      "advancements.stomach_ache.descr": "Consume veneno de una araña de las cavernas.",
+      "tameable_spiders.bed_respawning": "Reaparición\ntameable_spiders.bed_vacant",
+      "block.tameable_spiders.bed_south": "Cama de araña",
+      "tameable_spiders.hour": "hora\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Inventario de arañas domesticables",
+      "advancements.root.descr": "un mod que hace que las arañas sean domesticables",
+      "gamerule.TameableSpiders_Breeding": "Cría de arañas domesticables",
+      "gamerule.TameableSpiders_RespawnTime": "Tiempo de reaparición de arañas domesticadas",
+      "advancements.exterminator.title": "Exterminador\nadvancements.arachnid_ally.title",
+      "block.tameable_spiders.bed_north": "Cama de araña",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Las arañas domesticadas producirán seda cosechable",
+      "advancements.vemon_milker.title": "Ordeñador de veneno"
+    },
+    "sk_sk": {
+      "tameable_spiders.bed_claimed": "Posteľ nárokovaná",
+      "gamerule.TameableSpiders_Ridable.description": "Umožňuje hráčom jazdiť na dospelých Skrotených pavúkoch",
+      "gamerule.TameableSpiders_BabyRate.description": "Šanca pre skrotiteľného pavúka, aby sa rozmnožil ako dieťa",
+      "gamerule.TameableSpiders_Inventory.description": "Poskytuje skrotiteľným pavúkom inventár",
+      "gamerule.TameableSpiders_KeepInventory": "Skrotiteľný inventár pavúkov",
+      "gamerule.TameableSpiders_Ridable": "Skrotiteľné pavúky Jazditeľné",
+      "advancements.exterminator.descr": "Zabite 250 pavúkovcov",
+      "gamerule.TameableSpiders_SpawnRate.description": "Šanca, že Vanilla Spider bude nahradený Skrotiteľným Spiderom",
+      "gamerule.TameableSpiders_FallDamage.description": "Umožňuje pavúkom utrpieť poškodenie pri páde (zakázať, ak sa pri lezení neustále zabíjajú)",
+      "gamerule.TameableSpiders_BabyRate": "Skrotiteľné pavúky Baby Rate",
+      "advancements.stomach_ache.title": "Bolesť brucha",
+      "gamerule.TameableSpiders_BabyPoison.description": "Umožňuje mláďatám jaskynných pavúkov spôsobiť pri zásahu jed, ako by to urobil dospelý",
+      "advancements.root.title": "Skrotiteľné pavúky",
+      "advancements.silk_spinner.descr": "Zbierajte hodváb z pavúka",
+      "tameable_spiders.minute": "minútu\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Úspešne prepojené",
+      "advancements.pest_control.descr": "Zabite 50 pavúkovcov",
+      "gamerule.TameableSpiders_KeepInventory.description": "Pri respawnovaní nič nevypúšťajte do inventára pavúka",
+      "advancements.vemon_milker.descr": "Zbierajte Venom z jaskynného pavúka",
+      "gamerule.TameableSpiders_Respawn": "Skrotiteľné pavúky Respawn",
+      "gamerule.TameableSpiders_SpawnRate": "Miera rozmnožovania skrotiteľných pavúkov",
+      "gamerule.TameableSpiders_RespawnTime.description": "Čas po tom, čo je pavúk zabitý predtým, ako sa znovu objaví na svojej prepojenej posteli",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Skrotené jaskynné pavúky budú produkovať jed, ktorý sa dá zozbierať zo sklenenej fľaše",
+      "entity.tameable_spiders.cave_spider": "Jaskynný pavúk",
+      "gamerule.TameableSpiders_Respawn.description": "Umožňuje Skroteným pavúkom znovu sa objaviť",
+      "block.tameable_spiders.silk_web": "Hodvábna sieť",
+      "advancements.pest_control.title": "Hubenie škodcov",
+      "tameable_spiders.bed_missing": "Posteľ už neexistuje",
+      "advancements.arachnid_ally.descr": "Skrotiť pavúka",
+      "entity.tameable_spiders.spider": "Pavúk\ngamerule.TameableSpiders_BabyPoison",
+      "gamerule.TameableSpiders_FallDamage": "Skrotiteľné pavúky Poškodenie pádom",
+      "tameable_spiders.home_already": "Ten Pavúk má Domov",
+      "gamerule.TameableSpiders_ProduceVemon": "Skrotiteľné pavúky produkujú jed",
+      "gamerule.TameableSpiders_Breeding.description": "Dovoľte skroteným pavúkom rozmnožovať sa a vytvorte si skrotené dieťa pavúka",
+      "item.tameable_spiders.silk": "Hodváb\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Odstredivka na hodváb",
+      "gamerule.TameableSpiders_ProduceSilk": "Skrotiteľné pavúky produkujú hodváb",
+      "advancements.stomach_ache.descr": "Konzumujte jed z jaskynného pavúka",
+      "tameable_spiders.bed_respawning": "Respawning\ntameable_spiders.bed_vacant",
+      "block.tameable_spiders.bed_south": "Pavúčia posteľ",
+      "tameable_spiders.hour": "hodina\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Inventár skrotiteľných pavúkov",
+      "advancements.root.descr": "mod, vďaka ktorému sú pavúky skrotiteľné",
+      "gamerule.TameableSpiders_Breeding": "Chov skrotiteľných pavúkov",
+      "gamerule.TameableSpiders_RespawnTime": "Skrotiteľné pavúky Respawn Time",
+      "advancements.exterminator.title": "Deratizátor\nadvancements.arachnid_ally.title",
+      "block.tameable_spiders.bed_north": "Pavúčia posteľ",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Skrotené pavúky budú produkovať hodvábny hodváb",
+      "advancements.vemon_milker.title": "Venom Milker"
+    },
+    "es_es": {
+      "tameable_spiders.bed_claimed": "Cama reclamada",
+      "gamerule.TameableSpiders_Ridable.description": "Permite a los jugadores montar arañas domesticadas adultas.",
+      "gamerule.TameableSpiders_BabyRate.description": "El % de probabilidad de que una araña domesticable se genere cuando sea bebé",
+      "gamerule.TameableSpiders_Inventory.description": "Da un inventario a las arañas domesticables",
+      "gamerule.TameableSpiders_KeepInventory": "Inventario de la torre de arañas domesticables",
+      "gamerule.TameableSpiders_Ridable": "Arañas domesticables",
+      "advancements.exterminator.descr": "Mata a 250 arácnidos",
+      "gamerule.TameableSpiders_SpawnRate.description": "El % de probabilidad de que una araña vainilla sea reemplazada por una araña domesticable",
+      "gamerule.TameableSpiders_FallDamage.description": "Permite que las arañas sufran daño por caída (desactivar si siguen matándose mientras trepan)",
+      "gamerule.TameableSpiders_BabyRate": "Tarifa Bebé Arañas Tamables",
+      "advancements.stomach_ache.title": "Dolor de estómago",
+      "gamerule.TameableSpiders_BabyPoison.description": "Permite que las crías de arañas cavernícolas inflijan veneno al golpear, como lo haría un adulto.",
+      "advancements.root.title": "Arañas domesticables",
+      "advancements.silk_spinner.descr": "Recoge seda de una araña",
+      "tameable_spiders.minute": "minuto\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Vinculado exitosamente",
+      "advancements.pest_control.descr": "Mata a 50 arácnidos",
+      "gamerule.TameableSpiders_KeepInventory.description": "Al reaparecer, no dejes caer nada en el inventario de la araña.",
+      "advancements.vemon_milker.descr": "Recoge veneno de una araña de las cavernas",
+      "gamerule.TameableSpiders_Respawn": "Reaparición de arañas domesticables",
+      "gamerule.TameableSpiders_SpawnRate": "Tasa de generación de arañas domesticables",
+      "gamerule.TameableSpiders_RespawnTime.description": "El tiempo después de que matan a la araña antes de que reaparezca en su lecho vinculado",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Las arañas cavernícolas domesticadas producirán veneno cosechable, recolectado con una botella de vidrio.",
+      "entity.tameable_spiders.cave_spider": "Araña de las cuevas",
+      "gamerule.TameableSpiders_Respawn.description": "Permite que las arañas domesticadas reaparezcan",
+      "block.tameable_spiders.silk_web": "Telaraña de seda",
+      "advancements.pest_control.title": "Control de plagas",
+      "tameable_spiders.bed_missing": "La cama ya no existe",
+      "advancements.arachnid_ally.descr": "domesticar una araña",
+      "entity.tameable_spiders.spider": "Araña\ngamerule.TameableSpiders_BabyPoison",
+      "gamerule.TameableSpiders_FallDamage": "Daño por caída de arañas domesticables",
+      "tameable_spiders.home_already": "Esa araña tiene un hogar",
+      "gamerule.TameableSpiders_ProduceVemon": "Las arañas domesticables producen veneno",
+      "gamerule.TameableSpiders_Breeding.description": "Permita que las arañas domesticadas se reproduzcan y cree una araña bebé domesticada",
+      "item.tameable_spiders.silk": "Seda\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Hilandero de seda",
+      "gamerule.TameableSpiders_ProduceSilk": "Las arañas domesticables producen seda",
+      "advancements.stomach_ache.descr": "Consume veneno de una araña de las cavernas.",
+      "tameable_spiders.bed_respawning": "Reaparición\ntameable_spiders.bed_vacant",
+      "block.tameable_spiders.bed_south": "Cama de araña",
+      "tameable_spiders.hour": "hora\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Inventario de arañas domesticables",
+      "advancements.root.descr": "un mod que hace que las arañas sean domesticables",
+      "gamerule.TameableSpiders_Breeding": "Cría de arañas domesticables",
+      "gamerule.TameableSpiders_RespawnTime": "Tiempo de reaparición de arañas domesticadas",
+      "advancements.exterminator.title": "Exterminador\nadvancements.arachnid_ally.title",
+      "block.tameable_spiders.bed_north": "Cama de araña",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Las arañas domesticadas producirán seda cosechable",
+      "advancements.vemon_milker.title": "Ordeñador de veneno"
+    },
+    "nl_nl": {
+      "entity.tameable_spiders.cave_spider": "Grot spin",
+      "gamerule.TameableSpiders_Respawn.description": "Zorgt ervoor dat getemde spinnen kunnen respawnen",
+      "tameable_spiders.bed_claimed": "Bed geclaimd",
+      "gamerule.TameableSpiders_Ridable.description": "Hiermee kunnen spelers op volwassen getemde spinnen rijden",
+      "gamerule.TameableSpiders_BabyRate.description": "De kans dat een tembare spin als baby spawnt",
+      "gamerule.TameableSpiders_Inventory.description": "Geeft Tamable Spiders een inventaris",
+      "gamerule.TameableSpiders_KeepInventory": "Tembare Spin Houd Inventaris",
+      "gamerule.TameableSpiders_Ridable": "Tembare spinnen Berijdbaar",
+      "advancements.exterminator.descr": "Dood 250 spinachtigen",
+      "advancements.pest_control.title": "Ongediertebestrijding\nadvancements.root.descr",
+      "gamerule.TameableSpiders_SpawnRate.description": "De kans dat een vanillespin wordt vervangen door een tembare spin",
+      "gamerule.TameableSpiders_FallDamage.description": "Hiermee kunnen spinnen valschade oplopen (uitschakelen als ze zelfmoord blijven plegen tijdens het klimmen)",
+      "gamerule.TameableSpiders_BabyRate": "Tembare Spinnen Babytarief",
+      "tameable_spiders.bed_missing": "Bed bestaat niet meer",
+      "advancements.arachnid_ally.descr": "Tem een spin",
+      "entity.tameable_spiders.spider": "Spin\ngamerule.TameableSpiders_BabyPoison",
+      "advancements.stomach_ache.title": "Buikpijn\nblock.tameable_spiders.bed_north",
+      "gamerule.TameableSpiders_BabyPoison.description": "Hiermee kunnen baby-grotspinnen vergif op een treffer toebrengen, zoals een volwassene dat zou doen",
+      "gamerule.TameableSpiders_FallDamage": "Tembare spinnen vallen schade",
+      "tameable_spiders.home_already": "Die spin heeft een thuis",
+      "gamerule.TameableSpiders_ProduceVemon": "Tembare spinnen produceren gif",
+      "advancements.root.title": "Tembare spinnen",
+      "gamerule.TameableSpiders_Breeding.description": "Laat getemde spinnen zich voortplanten en creëer een getemde babyspin",
+      "item.tameable_spiders.silk": "Zijde\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Zijde Spinner",
+      "gamerule.TameableSpiders_ProduceSilk": "Tembare spinnen produceren zijde",
+      "advancements.stomach_ache.descr": "Consumeer gif van een grotspin",
+      "tameable_spiders.bed_respawning": "Herspawnen\ntameable_spiders.bed_vacant",
+      "advancements.silk_spinner.descr": "Verzamel zijde van een spin",
+      "tameable_spiders.hour": "uur\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Tembare spinneninventaris",
+      "tameable_spiders.minute": "minuut\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Succesvol gekoppeld",
+      "advancements.pest_control.descr": "Dood 50 spinachtigen",
+      "gamerule.TameableSpiders_Breeding": "Tembare spinnen broeden",
+      "gamerule.TameableSpiders_KeepInventory.description": "Laat tijdens het respawnen niets in de inventaris van de spin vallen",
+      "advancements.vemon_milker.descr": "Verzamel gif van een grotspin",
+      "gamerule.TameableSpiders_RespawnTime": "Tembare spinnen Respawntijd",
+      "advancements.exterminator.title": "Verdelger\nadvancements.arachnid_ally.title",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Getemde spinnen produceren oogstbare zijde",
+      "gamerule.TameableSpiders_Respawn": "Tembare spinnen komen terug",
+      "gamerule.TameableSpiders_SpawnRate": "Spawnsnelheid van tembare spinnen",
+      "advancements.vemon_milker.title": "Venom Melker",
+      "gamerule.TameableSpiders_RespawnTime.description": "De tijd nadat de spin is gedood voordat hij zal respawnen in zijn gekoppelde bed",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Getemde Grotspinnen produceren oogstbaar gif, verzameld met een glazen fles"
+    },
+    "sv_se": {
+      "entity.tameable_spiders.cave_spider": "Grottspindel\nentity.tameable_spiders.spider",
+      "gamerule.TameableSpiders_Respawn.description": "Tillåter tämda spindlar att återuppstå",
+      "tameable_spiders.bed_claimed": "Säng hävdade",
+      "block.tameable_spiders.silk_web": "Silke Web",
+      "gamerule.TameableSpiders_Ridable.description": "Tillåter spelare att rida vuxna Tamed Spindlar",
+      "gamerule.TameableSpiders_BabyRate.description": "Chansen för en tämbar spindel att leka som bebis",
+      "gamerule.TameableSpiders_Inventory.description": "Ger tämbara spindlar en inventering",
+      "gamerule.TameableSpiders_KeepInventory": "Tamable Spider Håll inventering",
+      "gamerule.TameableSpiders_Ridable": "Tämbara spindlar Ridbara",
+      "advancements.exterminator.descr": "Döda 250 spindeldjur",
+      "advancements.pest_control.title": "Pestkontroll\nadvancements.root.descr",
+      "gamerule.TameableSpiders_SpawnRate.description": "Chansen för en vaniljspindel att ersättas med en tämbar spindel",
+      "gamerule.TameableSpiders_FallDamage.description": "Tillåter spindlar att ta fallskador (inaktivera om de fortsätter att ta livet av sig medan de klättrar)",
+      "gamerule.TameableSpiders_BabyRate": "Tämbara spindlar Baby Rate",
+      "tameable_spiders.bed_missing": "Sängen finns inte längre",
+      "advancements.arachnid_ally.descr": "Tämja en spindel",
+      "advancements.stomach_ache.title": "Magont\nblock.tameable_spiders.bed_north",
+      "gamerule.TameableSpiders_BabyPoison.description": "Tillåter Baby Cave Spiders att tillfoga gift vid träff, som en vuxen skulle göra",
+      "gamerule.TameableSpiders_FallDamage": "Fallskador på tämbara spindlar",
+      "tameable_spiders.home_already": "Den där spindeln har ett hem",
+      "gamerule.TameableSpiders_ProduceVemon": "Tämbara spindlar producerar gift",
+      "advancements.root.title": "Tämbara spindlar",
+      "gamerule.TameableSpiders_Breeding.description": "Tillåt Tamed Spider att föda upp och skapa en Tamed Baby Spider",
+      "item.tameable_spiders.silk": "Silke\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Silk Spinner",
+      "gamerule.TameableSpiders_ProduceSilk": "Tämbara spindlar producerar siden",
+      "advancements.stomach_ache.descr": "Konsumera gift från en grottspindel",
+      "tameable_spiders.bed_respawning": "Respawning\ntameable_spiders.bed_vacant",
+      "block.tameable_spiders.bed_south": "Spider Bed",
+      "advancements.silk_spinner.descr": "Samla silke från en spindel",
+      "tameable_spiders.hour": "timme\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Inventering av tämbara spindlar",
+      "tameable_spiders.minute": "minut\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Länkad framgångsrikt",
+      "advancements.pest_control.descr": "Döda 50 spindeldjur",
+      "gamerule.TameableSpiders_Breeding": "Uppfödning av tämbara spindlar",
+      "gamerule.TameableSpiders_KeepInventory.description": "Tappa inget i spindelns inventering när du respawning",
+      "advancements.vemon_milker.descr": "Samla gift från en grottspindel",
+      "gamerule.TameableSpiders_RespawnTime": "Respawn-tid för tämbara spindlar",
+      "advancements.exterminator.title": "Utrotare\nadvancements.arachnid_ally.title",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Tamed Spiders kommer att producera skördbart silke",
+      "gamerule.TameableSpiders_Respawn": "Tamable Spiders Respawn",
+      "gamerule.TameableSpiders_SpawnRate": "Spawnhastighet för tämbara spindlar",
+      "advancements.vemon_milker.title": "Venom Milker",
+      "gamerule.TameableSpiders_RespawnTime.description": "Tiden efter att spindeln dödats innan den återuppstår vid sin länkade säng",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Tamed Cave Spiders kommer att producera skördbart gift, uppsamlat med en glasflaska"
+    },
+    "da_dk": {
+      "entity.tameable_spiders.cave_spider": "Huleedderkop\nentity.tameable_spiders.spider",
+      "gamerule.TameableSpiders_Respawn.description": "Tillader tæmmede edderkopper at genskabe",
+      "tameable_spiders.bed_claimed": "Seng hævdet",
+      "block.tameable_spiders.silk_web": "Silke Web",
+      "gamerule.TameableSpiders_Ridable.description": "Giver spillere mulighed for at ride på voksne tæmmede edderkopper",
+      "gamerule.TameableSpiders_BabyRate.description": "Chancen for en tæmbar edderkop til at gyde som en baby",
+      "gamerule.TameableSpiders_Inventory.description": "Giver Tamable Edderkopper en Inventory",
+      "gamerule.TameableSpiders_KeepInventory": "Tamable Spider Hold inventar",
+      "gamerule.TameableSpiders_Ridable": "Tamable Edderkopper Rideable",
+      "advancements.exterminator.descr": "Dræb 250 spindlere",
+      "advancements.pest_control.title": "Skadedyrskontrol\nadvancements.root.descr",
+      "gamerule.TameableSpiders_SpawnRate.description": "Chancen for, at en vaniljeedderkop bliver erstattet af en tæmbar edderkop",
+      "gamerule.TameableSpiders_FallDamage.description": "Tillader edderkopper at tage faldskade (deaktiver, hvis de bliver ved med at begå selvmord, mens de klatrer)",
+      "gamerule.TameableSpiders_BabyRate": "Tamable Edderkopper Baby Rate",
+      "tameable_spiders.bed_missing": "Sengen findes ikke længere",
+      "advancements.arachnid_ally.descr": "Tæm en edderkop",
+      "gamerule.TameableSpiders_BabyPoison.description": "Tillader Baby Cave Edderkopper at påføre gift ved hit, som en voksen ville",
+      "gamerule.TameableSpiders_FallDamage": "Tamable Edderkopper Fald Skade",
+      "tameable_spiders.home_already": "Den edderkop har et hjem",
+      "gamerule.TameableSpiders_ProduceVemon": "Tambare edderkopper producerer gift",
+      "advancements.root.title": "Tambare edderkopper",
+      "gamerule.TameableSpiders_Breeding.description": "Tillad tæmmede edderkopper at avle og skabe en tæmmet babyedderkop",
+      "item.tameable_spiders.silk": "Silke\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Silkespinder\nadvancements.stomach_ache.title",
+      "gamerule.TameableSpiders_ProduceSilk": "Tambare edderkopper producerer silke",
+      "advancements.stomach_ache.descr": "Forbrug gift fra en huleedderkop",
+      "tameable_spiders.bed_respawning": "Genoplivning\ntameable_spiders.bed_vacant",
+      "block.tameable_spiders.bed_south": "Spider Bed",
+      "advancements.silk_spinner.descr": "Saml silke fra en edderkop",
+      "tameable_spiders.hour": "time\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Inventar af tæmbare edderkopper",
+      "tameable_spiders.minute": "minut\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Linket med succes",
+      "advancements.pest_control.descr": "Dræb 50 spindlere",
+      "gamerule.TameableSpiders_Breeding": "Opdræt af tambare edderkopper",
+      "gamerule.TameableSpiders_KeepInventory.description": "Når du genoptager, skal du ikke tabe noget i Edderkoppens Inventory",
+      "advancements.vemon_milker.descr": "Saml gift fra en huleedderkop",
+      "gamerule.TameableSpiders_RespawnTime": "Tamable Edderkopper Genoplivningstid",
+      "advancements.exterminator.title": "Udrydder\nadvancements.arachnid_ally.title",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Tamed Edderkopper vil producere høstbar silke",
+      "gamerule.TameableSpiders_Respawn": "Tamable Edderkopper Genoplivning",
+      "gamerule.TameableSpiders_SpawnRate": "Tamable Spiders Spawn Rate",
+      "advancements.vemon_milker.title": "Venom Milker",
+      "gamerule.TameableSpiders_RespawnTime.description": "Tiden efter, at edderkoppen er dræbt, før den genopstår ved dens forbundne seng",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Tamed Cave Edderkopper vil producere gift, der kan høstes, opsamlet med en glasflaske"
+    },
+    "bg_bg": {
+      "tameable_spiders.bed_claimed": "Заявено легло",
+      "gamerule.TameableSpiders_Ridable.description": "Позволява на играчите да яздят възрастни опитомени паяци",
+      "gamerule.TameableSpiders_BabyRate.description": "Процентният шанс за опитомен паяк да се появи като бебе",
+      "gamerule.TameableSpiders_Inventory.description": "Дава инвентар на Tamable Spiders",
+      "gamerule.TameableSpiders_KeepInventory": "Опис на Tamable Spider Keep",
+      "gamerule.TameableSpiders_Ridable": "Tamable Spiders Rideable",
+      "advancements.exterminator.descr": "Убийте 250 паякообразни",
+      "gamerule.TameableSpiders_SpawnRate.description": "%Шанс ванилов паяк да бъде заменен от опитомен паяк",
+      "gamerule.TameableSpiders_FallDamage.description": "Позволява на паяците да поемат щети от падане (деактивирайте, ако продължават да се самоубиват, докато се катерят)",
+      "gamerule.TameableSpiders_BabyRate": "Tamable Spiders Baby Rate",
+      "advancements.stomach_ache.title": "Стомашни болки",
+      "gamerule.TameableSpiders_BabyPoison.description": "Позволява на малките пещерни паяци да нанасят отрова при удар, както би направил възрастен",
+      "advancements.root.title": "Укротими паяци",
+      "advancements.silk_spinner.descr": "Съберете коприна от паяк",
+      "tameable_spiders.minute": "минута\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Успешно свързано",
+      "advancements.pest_control.descr": "Убийте 50 паякообразни",
+      "gamerule.TameableSpiders_KeepInventory.description": "Когато се възраждате, не изпускайте нищо в инвентара на паяка",
+      "advancements.vemon_milker.descr": "Съберете отрова от пещерен паяк",
+      "gamerule.TameableSpiders_Respawn": "Възраждане на опитомени паяци",
+      "gamerule.TameableSpiders_SpawnRate": "Скорост на раждането на опитомени паяци",
+      "gamerule.TameableSpiders_RespawnTime.description": "Времето след като Паякът бъде убит, преди да се възроди на свързаното си легло",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Укротените пещерни паяци ще произвеждат годна за събиране отрова, събрана със стъклена бутилка",
+      "entity.tameable_spiders.cave_spider": "Пещерен паяк",
+      "gamerule.TameableSpiders_Respawn.description": "Позволява на опитомените паяци да се възродят",
+      "block.tameable_spiders.silk_web": "Копринена мрежа",
+      "advancements.pest_control.title": "Контрол на вредителите",
+      "tameable_spiders.bed_missing": "Леглото вече не съществува",
+      "advancements.arachnid_ally.descr": "Укротете паяк",
+      "entity.tameable_spiders.spider": "Паяк\ngamerule.TameableSpiders_BabyPoison",
+      "gamerule.TameableSpiders_FallDamage": "Щети от падане на Tamable Spiders",
+      "tameable_spiders.home_already": "Този паяк има дом",
+      "gamerule.TameableSpiders_ProduceVemon": "Укротимите паяци произвеждат отрова",
+      "gamerule.TameableSpiders_Breeding.description": "Позволете на Tamed Spiders да се размножават и създайте Tamed Baby Spider",
+      "item.tameable_spiders.silk": "Коприна\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Копринена въртяща се машина",
+      "gamerule.TameableSpiders_ProduceSilk": "Укротимите паяци произвеждат коприна",
+      "advancements.stomach_ache.descr": "Консумирайте отрова от пещерен паяк",
+      "tameable_spiders.bed_respawning": "Възраждане\ntameable_spiders.bed_vacant",
+      "block.tameable_spiders.bed_south": "Легло Паяк",
+      "tameable_spiders.hour": "час\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Опис на опитомени паяци",
+      "advancements.root.descr": "мод, който прави паяците опитомени",
+      "gamerule.TameableSpiders_Breeding": "Развъждане на опитомени паяци",
+      "gamerule.TameableSpiders_RespawnTime": "Време за възраждане на Tamable Spiders",
+      "advancements.exterminator.title": "Унищожител\nadvancements.arachnid_ally.title",
+      "block.tameable_spiders.bed_north": "Легло Паяк",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Укротените паяци ще произвеждат коприна за реколта",
+      "advancements.vemon_milker.title": "Venom Milker"
+    },
+    "fi_fi": {
+      "gamerule.TameableSpiders_Respawn.description": "Sallii kesytettyjen hämähäkkien uudelleensyntymisen",
+      "tameable_spiders.bed_claimed": "Sänky väitetty",
+      "gamerule.TameableSpiders_Ridable.description": "Sallii pelaajien ratsastaa aikuisten kesytetyillä hämähäkkeillä",
+      "gamerule.TameableSpiders_BabyRate.description": "Mahdollisuus kesytettävälle hämähäkille kutemaan vauvana",
+      "gamerule.TameableSpiders_Inventory.description": "Tarjoaa kesytettäville hämähäkkeille inventaarion",
+      "gamerule.TameableSpiders_KeepInventory": "Kesytettävä hämähäkki pitää inventaario",
+      "gamerule.TameableSpiders_Ridable": "Kesytettävät hämähäkit ratsastettavat",
+      "advancements.exterminator.descr": "Tapa 250 hämähäkkieläintä",
+      "advancements.pest_control.title": "Tuholaistorjunta\nadvancements.root.descr",
+      "gamerule.TameableSpiders_SpawnRate.description": "Mahdollisuus, että vaniljahämähäkki korvataan kesytetyllä hämähäkillä",
+      "gamerule.TameableSpiders_FallDamage.description": "Antaa hämähäkkien tehdä putoamisvaurioita (poista käytöstä, jos he tappavat itsensä kiipeämisen aikana)",
+      "gamerule.TameableSpiders_BabyRate": "Tamable Spiders Baby Rate",
+      "tameable_spiders.bed_missing": "Sänkyä ei ole enää olemassa",
+      "advancements.arachnid_ally.descr": "Kesytä hämähäkki",
+      "advancements.stomach_ache.title": "Vatsakipu\nblock.tameable_spiders.bed_north",
+      "gamerule.TameableSpiders_BabyPoison.description": "Antaa Baby Cave Spidersin aiheuttaa myrkkyä osuessaan, kuten aikuinen tekisi",
+      "gamerule.TameableSpiders_FallDamage": "Kesytettävät hämähäkit putoamisvauriot",
+      "tameable_spiders.home_already": "Sillä hämähäkillä on koti",
+      "gamerule.TameableSpiders_ProduceVemon": "Kesytettävät hämähäkit tuottavat myrkkyä",
+      "advancements.root.title": "Kesytettävät Hämähäkit",
+      "gamerule.TameableSpiders_Breeding.description": "Anna kesytettyjen hämähäkkien lisääntyä ja luoda kesytetty hämähäkkivauva",
+      "item.tameable_spiders.silk": "Silkki\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Silkki Spinner",
+      "gamerule.TameableSpiders_ProduceSilk": "Kesytettävät hämähäkit tuottavat silkkiä",
+      "advancements.stomach_ache.descr": "Syö myrkkyä luolahämähäkistä",
+      "tameable_spiders.bed_respawning": "Uudelleensyntyminen\ntameable_spiders.bed_vacant",
+      "advancements.silk_spinner.descr": "Kerää silkkiä hämähäkistä",
+      "tameable_spiders.hour": "tunnin\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Kesytettävien hämähäkkien inventaario",
+      "tameable_spiders.minute": "minuutti\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Linkitetty onnistuneesti",
+      "advancements.pest_control.descr": "Tapa 50 hämähäkkieläintä",
+      "gamerule.TameableSpiders_Breeding": "Kesytettävien hämähäkkien kasvatus",
+      "gamerule.TameableSpiders_KeepInventory.description": "Kun synnytät uudelleen, älä pudota mitään Spider\u0027s Inventory -luetteloon",
+      "advancements.vemon_milker.descr": "Kerää myrkkyä luolahämähäkistä",
+      "gamerule.TameableSpiders_RespawnTime": "Kesytettävien hämähäkkien uudelleensyntymisaika",
+      "advancements.exterminator.title": "Hävittäjä\nadvancements.arachnid_ally.title",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Tamed Spiders tuottaa korjattavaa silkkiä",
+      "gamerule.TameableSpiders_Respawn": "Kesytettävät Hämähäkit Respawn",
+      "gamerule.TameableSpiders_SpawnRate": "Kesytettävien hämähäkkien kutemisnopeus",
+      "advancements.vemon_milker.title": "Venom Milker",
+      "gamerule.TameableSpiders_RespawnTime.description": "Aika sen jälkeen, kun Hämähäkki on tapettu, ennen kuin se ilmestyy uudelleen linkitetyssä sängyssään",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Tamed Cave Spiders tuottaa korjattavaa myrkkyä, joka kerätään lasipullolla"
+    },
+    "en_gb": {
+      "tameable_spiders.bed_claimed": "Bed Claimed",
+      "gamerule.TameableSpiders_Ridable.description": "Allows Players to ride Adult Tamed Spiders",
+      "gamerule.TameableSpiders_BabyRate.description": "The %Chance for a Tamable Spider to spawn as a Baby",
+      "gamerule.TameableSpiders_Inventory.description": "Gives Tamable Spiders an Inventory",
+      "gamerule.TameableSpiders_KeepInventory": "Tamable Spider Keep Inventory",
+      "gamerule.TameableSpiders_Ridable": "Tamable Spiders Rideable",
+      "advancements.exterminator.descr": "Kill 250 Arachnids",
+      "gamerule.TameableSpiders_SpawnRate.description": "The %Chance for a Vanilla Spider to be replaced by a Tamable Spider",
+      "gamerule.TameableSpiders_FallDamage.description": "Allows Spiders to take Fall Damage (Disable if they keep killing themselves while Climbing)",
+      "gamerule.TameableSpiders_BabyRate": "Tamable Spiders Baby Rate",
+      "advancements.stomach_ache.title": "Stomach Ache",
+      "gamerule.TameableSpiders_BabyPoison.description": "Allows Baby Cave Spiders to Inflict Poison on hit, like an Adult would",
+      "advancements.root.title": "Tamable Spiders",
+      "advancements.silk_spinner.descr": "Collect Silk from a Spider",
+      "tameable_spiders.minute": "minute\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Successfully Linked",
+      "advancements.pest_control.descr": "Kill 50 Arachnids",
+      "gamerule.TameableSpiders_KeepInventory.description": "When respawning don\u0027t drop anything in the Spider\u0027s Inventory",
+      "advancements.vemon_milker.descr": "Collect Venom from a Cave Spider",
+      "gamerule.TameableSpiders_Respawn": "Tamable Spiders Respawn",
+      "gamerule.TameableSpiders_SpawnRate": "Tamable Spiders Spawn Rate",
+      "gamerule.TameableSpiders_RespawnTime.description": "The Time after the Spider is killed before it\u0027ll Respawn at its linked bed",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Tamed Cave Spiders will produce harvestable Venom, collected with a Glass Bottle",
+      "entity.tameable_spiders.cave_spider": "Cave Spider",
+      "gamerule.TameableSpiders_Respawn.description": "Allows Tamed Spiders to Respawn",
+      "block.tameable_spiders.silk_web": "Silk Web",
+      "advancements.pest_control.title": "Pest Control",
+      "tameable_spiders.bed_missing": "Bed no longer exists",
+      "advancements.arachnid_ally.descr": "Tame a Spider",
+      "entity.tameable_spiders.spider": "Spider\ngamerule.TameableSpiders_BabyPoison",
+      "gamerule.TameableSpiders_FallDamage": "Tamable Spiders Fall Damage",
+      "tameable_spiders.home_already": "That Spider has a Home",
+      "gamerule.TameableSpiders_ProduceVemon": "Tamable Spiders Produce Venom",
+      "gamerule.TameableSpiders_Breeding.description": "Allow Tamed Spiders to breed and create a Tamed Baby Spider",
+      "item.tameable_spiders.silk": "Silk\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Silk Spinner",
+      "gamerule.TameableSpiders_ProduceSilk": "Tamable Spiders Produce Silk",
+      "advancements.stomach_ache.descr": "Consume Venom from a Cave Spider",
+      "tameable_spiders.bed_respawning": "Respawning\ntameable_spiders.bed_vacant",
+      "block.tameable_spiders.bed_south": "Spider Bed",
+      "tameable_spiders.hour": "hour\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Tamable Spiders Inventory",
+      "advancements.root.descr": "a mod that makes spiders tamable",
+      "gamerule.TameableSpiders_Breeding": "Tamable Spiders Breeding",
+      "gamerule.TameableSpiders_RespawnTime": "Tamable Spiders Respawn Time",
+      "advancements.exterminator.title": "Exterminator\nadvancements.arachnid_ally.title",
+      "block.tameable_spiders.bed_north": "Spider Bed",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Tamed Spiders will produce harvestable Silk",
+      "advancements.vemon_milker.title": "Venom Milker"
+    },
+    "ko_kr": {
+      "tameable_spiders.bed_claimed": "침대 청구",
+      "gamerule.TameableSpiders_Ridable.description": "플레이어가 성체 길들인 거미를 탈 수 있습니다.",
+      "gamerule.TameableSpiders_BabyRate.description": "길들일 수 있는 거미가 아기로 생성될 확률(%)",
+      "gamerule.TameableSpiders_Inventory.description": "길들일 수 있는 거미에게 인벤토리를 제공합니다.",
+      "gamerule.TameableSpiders_KeepInventory": "길들일 수 있는 거미 인벤토리 유지",
+      "gamerule.TameableSpiders_Ridable": "길들일 수 있는 거미 탑승 가능",
+      "advancements.exterminator.descr": "거미류 250마리 처치",
+      "gamerule.TameableSpiders_SpawnRate.description": "바닐라 거미가 길들일 수 있는 거미로 교체될 확률(%)",
+      "gamerule.TameableSpiders_FallDamage.description": "거미가 낙하 피해를 입을 수 있도록 허용합니다. (상승하는 동안 계속해서 자살하면 비활성화됩니다.)",
+      "gamerule.TameableSpiders_BabyRate": "길들일 수 있는 거미 아기 비율",
+      "advancements.stomach_ache.title": "복통\nblock.tameable_spiders.bed_north",
+      "gamerule.TameableSpiders_BabyPoison.description": "아기 동굴 거미가 어른처럼 적중 시 독을 가할 수 있습니다.",
+      "advancements.root.title": "길들일 수 있는 거미",
+      "advancements.silk_spinner.descr": "거미에게서 실크를 수집하세요",
+      "tameable_spiders.minute": "분\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "성공적으로 연결되었습니다",
+      "advancements.pest_control.descr": "거미류 50마리 처치",
+      "gamerule.TameableSpiders_KeepInventory.description": "부활할 때 거미의 인벤토리에 아무것도 떨어뜨리지 마세요.",
+      "advancements.vemon_milker.descr": "동굴 거미에게서 독을 수집하세요",
+      "gamerule.TameableSpiders_Respawn": "길들일 수 있는 거미 부활",
+      "gamerule.TameableSpiders_SpawnRate": "길들일 수 있는 거미 생성 속도",
+      "gamerule.TameableSpiders_RespawnTime.description": "거미가 죽은 후 연결된 침대에서 다시 생성되기까지의 시간",
+      "gamerule.TameableSpiders_ProduceVemon.description": "길들인 동굴 거미는 유리병으로 수집한 수확 가능한 독을 생산합니다.",
+      "entity.tameable_spiders.cave_spider": "동굴 거미",
+      "gamerule.TameableSpiders_Respawn.description": "길들인 거미가 다시 생성되도록 허용",
+      "block.tameable_spiders.silk_web": "실크 웹",
+      "advancements.pest_control.title": "해충 방제",
+      "tameable_spiders.bed_missing": "침대가 더 이상 존재하지 않습니다.",
+      "advancements.arachnid_ally.descr": "거미 길들이기",
+      "entity.tameable_spiders.spider": "거미\ngamerule.TameableSpiders_BabyPoison",
+      "gamerule.TameableSpiders_FallDamage": "길들일 수 있는 거미 가을 피해",
+      "advancements.arachnid_ally.title": "거미류 동맹",
+      "tameable_spiders.home_already": "저 거미는 집이 있어요",
+      "gamerule.TameableSpiders_ProduceVemon": "길들일 수 있는 거미는 독을 생산합니다.",
+      "gamerule.TameableSpiders_Breeding.description": "길들인 거미가 길들인 아기 거미를 번식시키고 생성할 수 있도록 허용",
+      "item.tameable_spiders.silk": "실크\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "실크 스피너",
+      "gamerule.TameableSpiders_ProduceSilk": "길들일 수 있는 거미는 실크를 생산합니다",
+      "advancements.stomach_ache.descr": "동굴 거미의 독을 섭취하세요",
+      "tameable_spiders.bed_respawning": "부활\ntameable_spiders.bed_vacant",
+      "block.tameable_spiders.bed_south": "스파이더 베드",
+      "tameable_spiders.hour": "시간\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "길들일 수 있는 거미 인벤토리",
+      "advancements.root.descr": "거미를 길들일 수 있게 만드는 모드",
+      "gamerule.TameableSpiders_Breeding": "길들일 수 있는 거미 번식",
+      "gamerule.TameableSpiders_RespawnTime": "길들일 수 있는 거미 재생성 시간",
+      "advancements.exterminator.title": "해충 구제자",
+      "gamerule.TameableSpiders_ProduceSilk.description": "길들인 거미는 수확 가능한 실크를 생산합니다.",
+      "advancements.vemon_milker.title": "베놈 밀커"
+    },
+    "en_us": {
+      "tameable_spiders.bed_claimed": "Bed Claimed",
+      "gamerule.TameableSpiders_Ridable.description": "Allows Players to ride Adult Tamed Spiders",
+      "gamerule.TameableSpiders_BabyRate.description": "The %Chance for a Tameable Spider to spawn as a Baby",
+      "gamerule.TameableSpiders_Inventory.description": "Gives Tameable Spiders an Inventory",
+      "gamerule.TameableSpiders_KeepInventory": "Tameable Spider Keep Inventory",
+      "gamerule.TameableSpiders_Ridable": "Tameable Spiders Ridable",
+      "advancements.exterminator.descr": "Kill 250 Arachnids",
+      "gamerule.TameableSpiders_BabyPoison": "Tameable Spiders Baby Poison",
+      "gamerule.TameableSpiders_SpawnRate.description": "The %Chance for a Vanilla Spider to be replaced by a Tameable Spider",
+      "tameable_spiders.lack_ownership": "You dont own that Spider",
+      "tameable_spiders.second": "second",
+      "gamerule.TameableSpiders_FallDamage.description": "Allows Spiders to take Fall Damage (Disable if they keep killing themself while Climbing)",
+      "gamerule.TameableSpiders_BabyRate": "Tameable Spiders Baby Rate",
+      "advancements.stomach_ache.title": "Stomach Ache",
+      "gamerule.TameableSpiders_BabyPoison.description": "Allows Baby Cave Spiders to Inflict Poison on hit, like an Adult would",
+      "advancements.root.title": "Tameable Spiders",
+      "tameable_spiders.minutes": "minutes",
+      "advancements.silk_spinner.descr": "Collect Silk from a Spider",
+      "tameable_spiders.minute": "minute",
+      "tameable_spiders.bed_linked": "Successfully Linked",
+      "advancements.pest_control.descr": "Kill 50 Arachnids",
+      "gamerule.TameableSpiders_KeepInventory.description": "When repsawing dont drop anything in the Spider\u0027s Inventory",
+      "advancements.vemon_milker.descr": "Collect Vemon from a Cave Spider",
+      "tameable_spiders.hours": "hours",
+      "gamerule.TameableSpiders_Respawn": "Tameable Spiders Respawn",
+      "gamerule.TameableSpiders_SpawnRate": "Tameable Spiders Spawn Rate",
+      "gamerule.TameableSpiders_RespawnTime.description": "The Time after the Spider is killed before it\u0027ll Respawn at its linked bed",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Tamed Cave Spiders will produce harvestable Vemon, collected with a Glass Bottle",
+      "entity.tameable_spiders.cave_spider": "Cave Spider",
+      "gamerule.TameableSpiders_Respawn.description": "Allows Tamed Spiders to Respawn",
+      "block.tameable_spiders.silk_web": "Silk Web",
+      "advancements.pest_control.title": "Pest Control",
+      "tameable_spiders.bed_vacant": "Bed Unclaimed",
+      "tameable_spiders.seconds": "seconds",
+      "tameable_spiders.bed_missing": "Bed no longer exists",
+      "advancements.arachnid_ally.descr": "Tame a Spider",
+      "entity.tameable_spiders.spider": "Spider",
+      "gamerule.TameableSpiders_FallDamage": "Tameable Spiders Fall Damage",
+      "advancements.arachnid_ally.title": "Arachnid Ally",
+      "tameable_spiders.home_already": "That Spider has a Home",
+      "gamerule.TameableSpiders_ProduceVemon": "Tameable Spiders Produce Vemon",
+      "gamerule.TameableSpiders_Breeding.description": "Allow Tamed Spiders to breed and create a Tamed Baby Spider",
+      "item.tameable_spiders.silk": "Silk",
+      "spider_inventory.tooltip_saddle": "Press CONTROL to mount the Spider",
+      "advancements.silk_spinner.title": "Silk Spinner",
+      "gamerule.TameableSpiders_ProduceSilk": "Tameable Spiders Produce Silk",
+      "advancements.stomach_ache.descr": "Consume Vemon from a Cave Spider",
+      "tameable_spiders.bed_respawning": "Respawning",
+      "block.tameable_spiders.bed_south": "Spider Bed",
+      "item.tameable_spiders.vemon": "Vemon",
+      "tameable_spiders.hour": "hour",
+      "gamerule.TameableSpiders_Inventory": "Tameable Spiders Inventory",
+      "advancements.root.descr": "a mod that makes spiders tameable",
+      "gamerule.TameableSpiders_Breeding": "Tameable Spiders Breeding",
+      "gamerule.TameableSpiders_RespawnTime": "Tameable Spiders Respawn Time",
+      "advancements.exterminator.title": "Exterminator",
+      "block.tameable_spiders.bed_north": "Spider Bed",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Tamed Spiders will produce harvestable Silk         (4 silk \u003d 1 string)",
+      "advancements.vemon_milker.title": "Vemon Milker"
+    },
+    "uk_ua": {
+      "tameable_spiders.bed_claimed": "Затребувано ліжко",
+      "gamerule.TameableSpiders_Ridable.description": "Дозволяє гравцям їздити на дорослих приручених павуках",
+      "gamerule.TameableSpiders_BabyRate.description": "%Шанс для прирученого павука з’явитися як дитина",
+      "gamerule.TameableSpiders_Inventory.description": "Надає приборканим павукам інвентар",
+      "gamerule.TameableSpiders_KeepInventory": "Приборканий павук Зберігайте інвентар",
+      "gamerule.TameableSpiders_Ridable": "Приборкані павуки",
+      "advancements.exterminator.descr": "Убийте 250 павукоподібних",
+      "gamerule.TameableSpiders_SpawnRate.description": "%Шанс заміни ванільного павука на приборканого",
+      "gamerule.TameableSpiders_FallDamage.description": "Дозволяє павукам отримувати пошкодження від падіння (вимкнено, якщо вони продовжують вбивати себе під час лазіння)",
+      "gamerule.TameableSpiders_BabyRate": "Приручені павуки Baby Rate",
+      "advancements.stomach_ache.title": "Біль у животі",
+      "gamerule.TameableSpiders_BabyPoison.description": "Дозволяє дитинчам печерних павуків завдавати отрути при попаданні, як це зробив би дорослий",
+      "advancements.root.title": "Приборкані павуки",
+      "advancements.silk_spinner.descr": "Збирайте шовк у павука",
+      "tameable_spiders.minute": "хвилина\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Успішно пов\u0027язано",
+      "advancements.pest_control.descr": "Убийте 50 павукоподібних",
+      "gamerule.TameableSpiders_KeepInventory.description": "Під час відродження нічого не кидайте в інвентар Павука",
+      "advancements.vemon_milker.descr": "Зберіть отруту у печерного павука",
+      "gamerule.TameableSpiders_Respawn": "Відродження приручених павуків",
+      "gamerule.TameableSpiders_SpawnRate": "Швидкість появи приручених павуків",
+      "gamerule.TameableSpiders_RespawnTime.description": "Час після вбивства Павука, перш ніж він відродиться на своєму пов’язаному ложі",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Приручені печерні павуки вироблятимуть отруту, яку можна зібрати за допомогою скляної пляшки",
+      "entity.tameable_spiders.cave_spider": "Печерний павук",
+      "gamerule.TameableSpiders_Respawn.description": "Дозволяє приборканим павукам відроджуватися",
+      "block.tameable_spiders.silk_web": "Шовкова павутина",
+      "advancements.pest_control.title": "Боротьба зі шкідниками",
+      "tameable_spiders.bed_missing": "Ліжко більше не існує",
+      "advancements.arachnid_ally.descr": "Приручити павука",
+      "entity.tameable_spiders.spider": "Павук\ngamerule.TameableSpiders_BabyPoison",
+      "gamerule.TameableSpiders_FallDamage": "Пошкодження від падіння «Приборканих павуків».",
+      "tameable_spiders.home_already": "У того Павука є дім",
+      "gamerule.TameableSpiders_ProduceVemon": "Приручені павуки виробляють отруту",
+      "gamerule.TameableSpiders_Breeding.description": "Дозвольте Прирученим павукам розмножуватися та створіть Прирученого дитинча павука",
+      "item.tameable_spiders.silk": "Шовк\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Шовкова прядилка",
+      "gamerule.TameableSpiders_ProduceSilk": "Приручені павуки виробляють шовк",
+      "advancements.stomach_ache.descr": "Споживайте отруту печерного павука",
+      "tameable_spiders.bed_respawning": "Відродження\ntameable_spiders.bed_vacant",
+      "block.tameable_spiders.bed_south": "Ліжко Павук",
+      "tameable_spiders.hour": "година\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Інвентар приборканих павуків",
+      "advancements.root.descr": "мод, який робить павуків прирученими",
+      "gamerule.TameableSpiders_Breeding": "Розведення приручених павуків",
+      "gamerule.TameableSpiders_RespawnTime": "Час відродження приборканих павуків",
+      "advancements.exterminator.title": "Знищувач\nadvancements.arachnid_ally.title",
+      "block.tameable_spiders.bed_north": "Ліжко Павук",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Приручені павуки вироблятимуть придатний для збирання шовк",
+      "advancements.vemon_milker.title": "Веном Мікер"
+    },
+    "zh_cn": {
+      "advancements.pest_control.descr": "杀死 50 只蜘蛛",
+      "tameable_spiders.bed_claimed": "床位已认领\ntameable_spiders.bed_linked",
+      "advancements.arachnid_ally.descr": "驯服一只蜘蛛\nadvancements.exterminator.title",
+      "advancements.pest_control.title": "除害虫\nadvancements.root.descr"
+    },
+    "nb_sj": {
+      "gamerule.TameableSpiders_Respawn.description": "Lar temmede edderkopper gjenoppstå",
+      "tameable_spiders.bed_claimed": "Seng hevdet",
+      "block.tameable_spiders.silk_web": "Silkevev\nentity.tameable_spiders.cave_spider",
+      "gamerule.TameableSpiders_Ridable.description": "Lar spillere ri på voksne temmede edderkopper",
+      "gamerule.TameableSpiders_BabyRate.description": "Sjansen for en tambar edderkopp å gyte som baby",
+      "gamerule.TameableSpiders_Inventory.description": "Gir temmebare edderkopper en inventar",
+      "gamerule.TameableSpiders_KeepInventory": "Tamable Spider Hold inventar",
+      "gamerule.TameableSpiders_Ridable": "Tambare edderkopper Rideable",
+      "advancements.pest_control.title": "Skadedyrbekjempelse\nadvancements.root.descr",
+      "gamerule.TameableSpiders_SpawnRate.description": "Sjansen for at en vaniljeedderkopp blir erstattet av en tembar edderkopp",
+      "gamerule.TameableSpiders_FallDamage.description": "Lar edderkopper ta fallskade (deaktiver hvis de fortsetter å drepe seg selv mens de klatrer)",
+      "gamerule.TameableSpiders_BabyRate": "Tambare edderkopper Baby Rate",
+      "tameable_spiders.bed_missing": "Sengen eksisterer ikke lenger",
+      "advancements.arachnid_ally.descr": "Temme en edderkopp",
+      "gamerule.TameableSpiders_BabyPoison.description": "Tillater Baby Cave Edderkopper å påføre gift ved treff, som en voksen ville gjort",
+      "gamerule.TameableSpiders_FallDamage": "Fallskade for tambare edderkopper",
+      "tameable_spiders.home_already": "Den edderkoppen har et hjem",
+      "gamerule.TameableSpiders_ProduceVemon": "Tambare edderkopper produserer gift",
+      "advancements.root.title": "Tambare edderkopper",
+      "gamerule.TameableSpiders_Breeding.description": "La temmede edderkopper avle og lage en temmet babyedderkopp",
+      "item.tameable_spiders.silk": "Silke\nitem.tameable_spiders.vemon",
+      "advancements.silk_spinner.title": "Silkespinner\nadvancements.stomach_ache.title",
+      "gamerule.TameableSpiders_ProduceSilk": "Tambare edderkopper produserer silke",
+      "advancements.stomach_ache.descr": "Spis gift fra en huledderkopp",
+      "tameable_spiders.bed_respawning": "Gjenoppliving\ntameable_spiders.bed_vacant",
+      "block.tameable_spiders.bed_south": "Spider Bed",
+      "advancements.silk_spinner.descr": "Samle silke fra en edderkopp",
+      "tameable_spiders.hour": "time\ntameable_spiders.hours",
+      "gamerule.TameableSpiders_Inventory": "Inventar av tembare edderkopper",
+      "tameable_spiders.minute": "minutt\ntameable_spiders.minutes",
+      "tameable_spiders.bed_linked": "Vellykket koblet",
+      "advancements.pest_control.descr": "Drep 50 spindlere",
+      "gamerule.TameableSpiders_Breeding": "Oppdrett av temme edderkopper",
+      "gamerule.TameableSpiders_KeepInventory.description": "Ikke slipp noe i edderkoppens inventar under respawning",
+      "advancements.vemon_milker.descr": "Samle gift fra en huledderkopp",
+      "gamerule.TameableSpiders_RespawnTime": "Gjenopprettingstid for tambare edderkopper",
+      "advancements.exterminator.title": "Utrydder\nadvancements.arachnid_ally.title",
+      "gamerule.TameableSpiders_ProduceSilk.description": "Tamed Edderkopper vil produsere høstbar silke",
+      "gamerule.TameableSpiders_Respawn": "Tambare edderkopper gjenoppstår",
+      "gamerule.TameableSpiders_SpawnRate": "Spawnrate for tambare edderkopper",
+      "advancements.vemon_milker.title": "Venom Melker",
+      "gamerule.TameableSpiders_RespawnTime.description": "Tiden etter at edderkoppen er drept før den vil gjenoppstå ved dens tilknyttede seng",
+      "gamerule.TameableSpiders_ProduceVemon.description": "Tamed Cave Edderkopper vil produsere gift som kan høstes, samlet med en glassflaske"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Entity",
+        "children": [
+          {
+            "name": "Abstract",
+            "children": []
+          },
+          {
+            "name": "Goals",
+            "children": []
+          },
+          {
+            "name": "Renderer",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Misc",
+        "children": [
+          {
+            "name": "Procedures",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Item",
+        "children": [
+          {
+            "name": "Advancement Icon",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Spider Bed",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "tameable_spiders",
+    "modName": "Tameable Spiders",
+    "version": "2.0.7",
+    "description": "a Mod that makes Spiders Tamable (way more complex then that, but thats the quick description)",
+    "author": "Spiderman31807",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/tameable-spiders",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "credits": "Spiderman31807",
+    "modElementsPackage": "tameable.spiders"
+  },
+  "mcreatorVersion": 202400229712
+}
